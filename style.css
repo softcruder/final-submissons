@@ -535,7 +535,7 @@ footer {
   }
 
   .section__title::before {
-    top: 2px;
+    top: 3px;
     left: 0;
     width: 2px;
     height: 14px;
@@ -551,7 +551,7 @@ footer {
 
   .home a {
     padding: .4rem .6rem;
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
   }
 
   .home__data-number{
@@ -589,12 +589,12 @@ footer {
   }
 
   .footer__title {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
 
   .footer__subtitle, .footer__link {
     font-variant: small-caps;
-    font-size: 0.55rem;
+    font-size: 0.5rem;
   }
 
   .footer__copy, .footer__copy a {
