@@ -1,9 +1,9 @@
 /*=============== GOOGLE FONTS ===============*/
 @font-face {
   font-family: Lato;
-  src: url('/font/Lato-Black.ttf')  format('truetype');
-  src: url('/font/Lato-Bold.ttf')  format('truetype');
-  src: url('/font/Lato-Regular.ttf')  format('truetype');
+  src: url('font/Lato-Black.ttf')  format('truetype');
+  src: url('font/Lato-Bold.ttf')  format('truetype');
+  src: url('font/Lato-Regular.ttf')  format('truetype');
 }
 
 /*=============== VARIABLES CSS ===============*/
@@ -14,8 +14,9 @@
   --first-color: hsl(270,48%,33%);
   --first-color-alt: hsl(58,83%,49%);
   --first-color-lighter: hsl(270, 41%, 57%);
+  --footer-color-lighter: hsl(270, 40%, 64%);
   --black-color: hsl(206, 12%, 12%);
-  --card-color: hsl(0, 0%, 96%);
+  --card-color: hsl(0, 0%, 90%);
   --title-color: hsl(270,48%,33%);
   --text-color: hsl(285, 67%, 4%);
   --text-color-light: hsl(0, 0%, 100%);
@@ -24,17 +25,21 @@
 
   /*========== Font and typography ==========*/
   --body-font: 'Lato', sans-serif;
-  --biggest-font-size: 2.25rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
+  --biggest-font-size: 3.5rem;
+  --h1-font-size: 2.75rem;
+  --h2-font-size: 2.25rem;
+  --h3-font-size: 1.5rem;
+  --h4-font-size: 1rem;
+  --h5-font-size: .75;
+  --h6-font-size: .5rem;
   --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --small-font-size: .75rem;
+  --smaller-font-size: .6rem;
+  --smallest-font-size: .33rem
 
   /*========== Font weight ==========*/
   --font-bold: 700;
-  --font-bold-1: 600;
+  --font-bolder: 600;
   --font-normal: 500;
   --font-light: 300;
 
@@ -47,11 +52,12 @@
   :root {
     --biggest-font-size: 3.5rem;
     --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
+    --h2-font-size: 1.75rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
+    --smallest-font-size: .5rem;
   }
 }
 
@@ -112,7 +118,7 @@ img {
 .grid {
   display: grid;
   grid-template-rows: 1fr 3;
-  gap: 1.5rem;
+  gap: .5rem;
 }
 
 .section {
@@ -121,7 +127,8 @@ img {
 
 .section__title {
   position: relative;
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-bold);
   padding-left: 1.25rem;
   margin-bottom: 2.5rem;
 }
@@ -187,7 +194,7 @@ nav ul {
 }
 
 nav a {
-  font-weight: var(--font-bold);
+  font-weight: var(--font-bolder);
   color: var(--first-color);
   font-size: var(--normal-font-size);
   transition: 0.3s ease-in-out;
@@ -221,19 +228,11 @@ nav a:hover::after {
 }
 
 /*==================== HERO ====================*/
-/* section#home{
-  background: linear-gradient(
-    90deg,
-    var(--card-color) 3%,
-    hsl(0, 0%, 58%) 159.03%
-  );
-} */
-
 .home {
   gap: 2rem;
   flex-wrap: wrap-reverse;
   align-items: center;
-  min-height: calc(100vh - 263.6px);
+  min-height: calc(100vh - 283.6px);
 }
 
 .home > * {
@@ -241,7 +240,7 @@ nav a:hover::after {
 }
 
 .home h1 {
-  font-weight: var(--font-bold);
+  font-weight: var(--font-bolder);
   font-size: clamp(65px, 100vw, 97px);
   line-height: 1;
 }
@@ -265,12 +264,11 @@ nav a:hover::after {
 }
 
 .home a:hover {
-  background: linear-gradient(    110deg,    var(--first-color-alt) 3%,    hsl(58, 86%, 41%) 134%  );
+  background: linear-gradient(    90deg,    var(--first-color-alt) 3%,    hsl(58, 83%, 37%) 134%  );
   color: var(--first-color);
 }
 
 .home__data{
-  /* border-left: 1px solid var(--container-color); */
   padding-top: 3.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -294,36 +292,26 @@ nav a:hover::after {
 }
 
 /*==================== SUBMISSIONS ====================*/
-
 .accordion__container {
   max-width: 100vw;
   margin-top: 1rem;
   padding-bottom: 1rem;
   cursor: pointer;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 .accordion {
   margin-bottom: .75rem;
-  overflow: hidden;
 }
 
 .accordion__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--first-color);
+  background: linear-gradient(120deg, var(--first-color) 15%, hsl(285, 47%, 4%) 164%);
   cursor: pointer;
   padding: 12px;
   border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
 }
 
 .accordion__header h3 {
@@ -334,7 +322,7 @@ nav a:hover::after {
 .accordion__body {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1.4s ease;
+  transition: max-height .6s ease-in-out;
 }
 
 .accordion__body a {
@@ -344,33 +332,25 @@ nav a:hover::after {
   font-size: 1.4rem;
 }
 
-/* .accordion {
-  background-color: #f6f6f6;
-  color: #444;
-  border-radius: 4px;
-  margin: 10px 0;
-  overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-}
-.accordion__header {
-  background-color: #ddd;
-  padding: 10px;
-  cursor: pointer;
+.accordion__header.active {
+  border-radius: 8px 8px 0 0;
 }
 
-.accordion__body {
-  padding: 10px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-} */
-
-.accordion .active .accordion__body {
+.accordion__body.active {
   max-height: 300px;
-  animation: fade 1s ease-in-out;
+  padding: 1rem;
+  background-color: var(--card-color);
+  border-radius: 0 0 8px 8px;
+  animation: fade .8s ease-in-out;
 }
 
-.accordion.active svg {
+.accordion__body.active a {
+  font-size: var(--h5-font-size);
+  color: var(--first-color);
+  font-weight: var(--font-bolder);
+}
+
+.accordion__header.active svg {
   transform: rotate(180deg);
 }
 
@@ -382,48 +362,40 @@ svg {
   from {
     opacity: 0;
     transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    -moz-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    -o-transform: translateY(-10px);
-}
+  }
   to {
     opacity: 1;
     transform: translateY(0px);
   }
 }
 
-/* .accordion__header {
-  background-color: var(--first-color);
-  color: #fff;
-  cursor: pointer;
-  padding: 18px;
-} */
-
 .pagination__container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.page__button {
+.pagination__container ul {
+  padding-inline-start: 0;
+}
+
+.pagination__container ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  margin-block-start: 0;
+}
+
+.page__button:disabled {
+  background: linear-gradient(    70deg,    hsl(0, 0%, 83%) 0%,    hsl(0, 0%, 41%) 164%  );
+}
+
+.page__button, .page__item {
   font-weight: var(--font-normal);
   color: var(--card-color);
-  font-size: 20px;
+  font-size: 21px;
+  cursor: pointer;
   padding: 0.5rem 1rem;
-  background: linear-gradient(    70deg,    var(--first-color) 0%,    hsl(285, 67%, 4%) 164%  );
-  border-radius: 5px;
-  border: none;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-
-.page__item {
-  font-weight: var(--font-normal);
-  color: var(--card-color);
-  font-size: 20px;
-  padding: .25rem .5rem;
   background: linear-gradient(    70deg,    var(--first-color) 0%,    hsl(285, 67%, 4%) 164%  );
   border-radius: 5px;
   border: none;
@@ -484,16 +456,16 @@ svg {
 }
 
 .footer__copy {
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   text-align: center;
   color: #fff;
   margin-top: var(--mb-3);
 }
 
 .footer__copy a {
-  font-size: var(--small-font-size);
-  font-weight: var(--font-normal);
-  color: var(--text-color-light);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-bold);
+  color: var(--footer-color-lighter);
 }
 
 .footer__title,
@@ -516,11 +488,6 @@ svg {
     padding: 2rem;
     z-index: 1000;
     transition: background-size 0.3s ease-in-out;
-    -webkit-transition: background-size 0.3s ease-in-out;
-    -moz-transition: background-size 0.3s ease-in-out;
-    -ms-transition: background-size 0.3s ease-in-out;
-    -o-transition: background-size 0.3s ease-in-out;
-    -webkit-filter: invert(21%) sepia(33%) saturate(2228%) hue-rotate(240deg) brightness(95%) contrast(98%);
 }
 
   .toggle__menu.active {
@@ -546,6 +513,7 @@ svg {
     max-height: 100%;
     opacity: 1;
     background-color: var(--first-color-alt);
+    transform: scale(1, 1);
   }
 
   .nav__text {
@@ -554,10 +522,42 @@ svg {
 
   .nav__logo--img {
     max-width: 200px;
-    transition: ease;
-    -webkit-transition: ease;
-    -moz-transition: ease;
-    -ms-transition: ease;
-    -o-transition: ease;
-}
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+  }
+  .accordion__header {
+    padding: 8px;
+    border-radius: 0.33rem;
+    -webkit-border-radius: 0.33rem;
+    -moz-border-radius: 0.33rem;
+    -ms-border-radius: 0.33rem;
+    -o-border-radius: 0.33rem;
+  }
+
+  .accord-h {
+    font-size: 0.25rem;
+    font-weight: 600;
+  }
+
+  .footer__img {
+    max-width: 190px;
+  }
+
+  .footer__title {
+    font-size: 0.95rem;
+  }
+
+  .footer__subtitle, .footer__link {
+    font-variant: small-caps;
+    font-size: 0.33;
+  }
+
+  .footer__links, .footer__copy, .footer__copy a {
+    font-weight: var(--font-bold-1);
+  }
+
+
 }
