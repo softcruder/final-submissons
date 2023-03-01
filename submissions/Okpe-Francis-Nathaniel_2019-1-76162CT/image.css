@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.main-img {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    gap: 10px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main a {
+    bottom: 40px;
+    left: 50%;
+    position: fixed;
+    text-decoration: none;
+    border: 1px solid #000;
+    outline: none;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
