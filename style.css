@@ -529,15 +529,16 @@ footer {
   }
 
   .section__title {
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-bold);
+    padding-left: 0.5rem;
   }
 
   .section__title::before {
     top: 2px;
     left: 0;
-    width: 3px;
-    height: 10px;
+    width: 2px;
+    height: 14px;
   }
 
   .grid {
@@ -545,12 +546,12 @@ footer {
   }
 
   .home {
-    min-height: calc(100vh - 443.6px);
+    min-height: calc(100vh - 403.6px);
   }
 
   .home a {
-    padding: .35rem .5rem;
-    font-size: var(--small-font-size);
+    padding: .4rem .6rem;
+    font-size: var(--h3-font-size);
   }
 
   .home__data-number{
@@ -593,10 +594,10 @@ footer {
 
   .footer__subtitle, .footer__link {
     font-variant: small-caps;
-    font-size: 0.6rem;
+    font-size: 0.55rem;
   }
 
-  .footer__links, .footer__copy, .footer__copy a {
+  .footer__copy, .footer__copy a {
     font-weight: var(--font-bold);
   }
 
