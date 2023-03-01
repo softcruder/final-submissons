@@ -1,10 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@font-face {
-  font-family: Lato;
-  src: url('font/Lato-Black.ttf')  format('truetype');
-  src: url('font/Lato-Bold.ttf')  format('truetype');
-  src: url('font/Lato-Regular.ttf')  format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -38,9 +33,9 @@
   --smallest-font-size: .33rem
 
   /*========== Font weight ==========*/
+  --font-bolder: 900;
   --font-bold: 700;
-  --font-bolder: 600;
-  --font-normal: 500;
+  --font-normal: 400;
   --font-light: 300;
 
   /*========== z index ==========*/
@@ -406,6 +401,10 @@ svg {
 }
 
 /*==================== FOOTER ====================*/
+footer {
+  font-family: 'Poppins' sans-serif;
+}
+
 .footer {
   padding-top: 2rem;
 }
