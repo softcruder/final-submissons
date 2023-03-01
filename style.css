@@ -553,13 +553,13 @@ footer {
     font-size: var(--small-font-size);
   }
 
+  .home__data-number{
+    font-size: var(--h2-font-size);
+  }
+
   .accordion__header {
     padding: 8px;
     border-radius: 0.33rem;
-    -webkit-border-radius: 0.33rem;
-    -moz-border-radius: 0.33rem;
-    -ms-border-radius: 0.33rem;
-    -o-border-radius: 0.33rem;
   }
 
   .accord-h {
@@ -593,12 +593,14 @@ footer {
 
   .footer__subtitle, .footer__link {
     font-variant: small-caps;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
 
   .footer__links, .footer__copy, .footer__copy a {
-    font-weight: var(--font-bold-1);
+    font-weight: var(--font-bold);
   }
 
-
+  .footer__copy, .footer__copy a {
+    font-size: var(--smaller-font-size);
+  }
 }
