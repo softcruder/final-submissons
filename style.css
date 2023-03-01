@@ -532,6 +532,11 @@ footer {
   .grid {
     gap: 0.25rem;
   }
+
+  .home {
+    min-height: calc(100vh - 483.6px);
+  }
+
   .accordion__header {
     padding: 8px;
     border-radius: 0.33rem;
@@ -548,6 +553,7 @@ footer {
 
   .page__button, .page__item {
     font-size: 0.5rem;
+    padding: 0.15rem 0.3rem;
   }
 
   .footer__img {
