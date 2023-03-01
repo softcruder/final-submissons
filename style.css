@@ -517,6 +517,7 @@ footer {
 
   .nav__text {
     font-size: var(--h3-font-size);
+    font-weight: var(--font-bold);
   }
 
   .nav__logo--img {
