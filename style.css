@@ -378,7 +378,6 @@ svg {
 .pagination__container ul li {
   display: inline-block;
   margin: 0 0.5rem;
-  margin-block-start: 0;
 }
 
 .page__button:disabled {
@@ -551,12 +550,19 @@ footer {
     font-weight: 600;
   }
 
+  .pagination__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
   .pagination__container ul li {
-    margin: 0 0.1rem;
+    margin: 0 0.2rem;
   }
 
   .page__button, .page__item {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     padding: 0.15rem 0.3rem;
   }
 
@@ -570,7 +576,7 @@ footer {
 
   .footer__subtitle, .footer__link {
     font-variant: small-caps;
-    font-size: 0.33rem;
+    font-size: 0.5rem;
   }
 
   .footer__links, .footer__copy, .footer__copy a {
