@@ -1,0 +1,22 @@
+<html> 
+<head>
+<title> Homepage of COM224 </title>
+</head>
+<body><center>
+<h2> FEDERAL UNIVERSITY OF TECHNOLOGY, MINNA.</h2>
+<h3><b>Introduction to Web Design</b></h3>
+<table><tr><td><p>Matric Number: </td><td> 2021/2/80376CT </td></tr>
+<tr><td>Name:</td><td> Moruf Jemilu</td></tr>
+<tr><td>CourseNumber:</td><td>    42</td></tr>
+<tr><td>Course:</td><td> CPT224</td></tr></p>
+</center>
+<table border = "1" WIDTH="100%" >      
+    <tr>    
+  <th><a href='CV1.html'>My CV</a></th>  
+  <th><a href='Defination.html'>Definition of Web</a></th>     
+    <th><a href='Fruit1.html'>List of Fruits</a></th>  
+  <th><a href='Course Reg.html'>Course Registered</a></th>
+</tr>    
+</table>
+</body>
+</html>

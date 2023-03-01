@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+.text-box {
+  width: 90%;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 45px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  background: transparent;
+  position: relative;
+}
+.nav-links ul li {
+  list-style: none;
+  padding: 8px 12px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}

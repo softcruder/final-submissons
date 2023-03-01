@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Second Year Students Project | Federal University of Technology, Minna </title>
+</head>
+<body>
+    <header class="row">
+        <a href="https://sict.futminna.edu.ng" class="nav__logo" id="nav-logo">
+            <span class="nav__text">SICT</span>
+            <img src="futminna.png" alt="FUT Minna" class="nav__logo--img">
+        </a>
+        <div class="toggle__menu" onclick="toggleMenu();">
+
+        </div>
+        <nav class="nav__menu" id="nav-menu">
+            <ul class="nav__list row">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Hero</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#submissions" class="nav__link">Submissions</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home row container" id="home">
+            <div class="home__container">
+                <div class="home__content" id="hero">
+                    <h2 class="home__title">
+                        CPT224 Project
+                    </h2>
+                    <p class="home__description">Welcome to the compilation page. <br> The submission of each student are all compiled on this page, click on a data accordion to access the webpage to a certain student's work.</p>
+                    <a class="home__button" id="btn-link" href="#submission">Submissions</a>
+                </div>
+
+                <div class="home__sub-content container">
+                    <div class="home__data">
+                        <div class="home__data-group">
+                          <h2 class="home__data-number update__students"></h2>
+                          <h3 class="home__data-title">Students</h3>
+                          <p class="home__data-description">
+                            The population of students taking course.
+                          </p>
+                        </div>
+          
+                        <div class="home__data-group">
+                          <h2 class="home__data-number update__submissions"></h2>
+                          <h3 class="home__data-title">Submissions</h3>
+                          <p class="home__data-description">
+                            Total number of project submission.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="section container" id="submission">
+            <span class="section__title">Submissions</span>
+            <div class="accordion__container" id="accordion">
+              
+            </div>
+
+            <section class="pagination__container container" id="pagination">
+              <button class="page__button" id="prev" disabled>&lt; prev</button>
+              <ul id="pages"></ul>
+              <button class="page__button" id="next">next &gt;</button>
+          </section>  
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__bg">
+          <div class="footer__container container grid">
+            <div class="footer__nav">
+              <h1 class="footer__title">Computer Science Department</h1>
+              <span class="footer__subtitle"
+                >School of Information and Communication Technology</span
+              >
+              <img src="futminna-white.png" alt="FUT Minna" class="footer__img">
+            </div>
+            
+            <ul class="footer__links">
+              <li>
+                <a href="#home" class="footer__link">Home</a>
+              </li>
+              <li>
+                <a href="#submissions" class="footer__link">Submissions</a>
+              </li>
+            </ul>
+  
+            <br />
+          </div>
+  
+          <p class="footer__copy">
+            2023 &#166; Compiled by <a href="https://softcruder.me">Softcrüder</a>
+          </p>
+        </div>
+      </footer>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+    <!-- <script src="excerpt.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<head>
+<html>
+<title>COURSE REGISTRATION FORM</title>
+<style>
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}
+.navbar a {
+float:left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+.navbar a:active {
+background: #008000;
+color: white;
+}
+#identity {
+        margin-top: 80px;
+        margin-left: 20px; 
+        font-size: 2vw;
+        font-family: Georgia, Sans-Serif;
+        float: left;
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10vw;
+    }
+#label {
+    text-align: center;
+    padding: 20px;
+}
+.column {
+    float: left;
+    padding-top: 10px;
+}
+.left {
+    width:10%;
+    text-align: center;
+}
+.middle {
+    width: 20%;
+    text-align: justify;
+}
+.right {
+    width: 70%;
+    text-align: justify;
+}
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+input[type = "button"],input[type = "reset"] {
+  background-color: #87CEEB;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: none;
+  margin-right: 40px;
+}
+.actBtn{
+    margin-top: 50px;
+    text-align: center;
+}
+@media screen and (max-width:750px) {
+    .column{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+</style>
+</head>
+<body>
+             <!--
+         Navigation Bar
+         -->
+         <div class = "navbar">
+<a href = "home.html">HOME</a>
+<a href = "about_me.html">ABOUT ME</a>
+<a href = "course_reg.html">COURSE REGISTRATION</a>
+<a href = "cv.html">CURRICULUM VITAE</a>
+<a href = "fruits.html">FRUITS</a>
+<a href = "The Web.html">THE CONCEPTUAL DEFINITION OF THE WEB</a>
+<a href="frameset.html">FRAMESET</a>
+<a href="borderless_table.html">BORDERLESS TABLE</a>
+<a href="bordered_table.html">BOREDERED TABLE</a>
+<a href="form_alt2.html">HTML FORM</a>
+<a href="nested_table.html">NESTED TABLE</a>
+</div>
+<!-- End of Navigation Bar -->
+    
+    <div id="identity">
+    <p>NAME: OLAITAN TEMITOPE MICHAEL</p>
+    <p>MATRIC NUMBER: 2021/2/82829CT</p>
+    <p>CLASS NUMBER: 43</p>
+</div>
+
+<div id = "label"><h1>COURSE REGISTRATION FORM</h1>
+</div>
+
+<form>
+<div class = "rows">
+    <div class = "column left">
+        <label><strong>Tick</strong></label>
+    </div>
+    <div class="column middle">
+        <label><strong>Course Code</strong></label>
+    </div>
+    <div class = "column right">
+        <label><strong>Course Title</strong></label>
+    </div>
+    <div class = "column left">
+<input type = "checkbox" id = "course" name = "cit224" value = "cit224">
+    </div>
+    <div class = "column middle">
+<label for = "cit224">CIT 224</label>
+    </div>
+    <div class = "column right">
+<label for = "cit224">Discrete Mathematical Structure</label>
+    </div>
+</div>
+
+<div class = "rows">
+    <div class = "column left">
+<input type = "checkbox" id = "cpt221" name = "cpt221" value = "cpt221">
+    </div>
+    <div class = "column middle">
+<label for = "cpt221">CPT 221</label>
+    </div>
+    <div class = "column right">
+<label for = "cpt221">Object-Oriented Programming II</label>
+    </div>
+</div>
+
+
+
+<div class = "rows">
+    <div class = "column left">
+<input type = "checkbox" id = "cpt222" name = "cpt222" value = "cpt222">
+    </div>
+    <div class = "column middle">
+<label for = "cpt222">CPT 222</label>
+    </div>
+    <div class = "column right">
+<label for = "cpt222">Data Structures</label>
+    </div>
+</div>
+
+
+
+<div class = "rows">
+    <div class = "column left">
+<input type = "checkbox" id = "cpt223" name = "cpt223" value = "cpt223">
+    </div>
+    <div class = "column middle">
+<label for = "cpt223">CPT 223</label>
+    </div>
+    <div class = "column right">
+<label for = "cpt223">Introduction to Algorithms</label>
+    </div>
+</div>
+
+
+
+<div class = "rows">
+    <div class = "column left">
+<input type = "checkbox" id = "cpt224" name = "cpt224" value = "cpt224">
+    </div>
+    <div class = "column middle">
+<label for = "cpt224">CPT 224</label>
+    </div>
+    <div class = "column right">
+<label for = "cpt224">Introduction to Web Design</label>
+    </div>
+</div>
+
+
+
+<div class = "rows">
+    <div class = "column left">
+<input type = "checkbox" id = "cpt226" name = "cpt226" value = "cpt226">
+    </div>
+    <div class = "column middle">
+<label for = "cpt226">CPT 226</label>
+    </div>
+    <div class = "column right">
+<label for = "cpt226">Hardware Systems and Maintenance</label>
+    </div>
+</div>
+
+
+
+<div class = "rows">
+    <div class = "column left">
+<input type = "checkbox" id = "mat222" name = "mat222" value = "mat222">
+    </div>
+    <div class = "column middle">
+<label for = "mat222">MAT 222</label>
+    </div>
+    <div class = "column right">
+<label for = "mat222">Linear Algebra II</label>
+    </div>
+</div>
+
+
+
+<div class = "rows">
+    <div class = "column left">
+<input type = "checkbox" id = "mat225" name = "mat225" value = "mat225">
+    </div>
+    <div class = "column middle">
+<label for = "mat225">MAT 225</label>
+    </div>
+    <div class = "column right">
+<label for = "mat225">Introduction to Numerical Analysis</label>
+    </div>
+</div>
+
+
+
+<div class = "rows">
+    <div class = "column left">
+<input type = "checkbox" id = "gst103" name = "gst103" value = "gst103">
+    </div>
+    <div class = "column middle">
+<label for = "gst103">GST 103</label>
+    </div>
+    <div class = "column right">
+<label for = "gst103">Nigerian People and Culture</label>
+    </div>
+</div>
+
+
+
+<div class = "rows">
+    <div class = "column left">
+<input type = "checkbox" id = "gst121" name = "gst121" value = "gst121">
+    </div>
+    <div class = "column middle">
+<label for = "gst121">GST 121</label>
+    </div>
+    <div class = "column right">
+<label for = "gst121">Use of English II</label>
+    </div>
+</div>
+
+
+<div class = "actBtn">
+<input type = "button" id = "bt1" onclick = "alert('Form Submitted!')" value = "Submit">
+<input type = "reset" id = "bt2" value = "Cancel">
+</div>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    background-color: rgb(87, 148, 156);
+}
+.menuItem{
+    background-color: rgb(126, 161, 150);
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuContainer{
+    padding: 0px;
+    width: 100%;
+    /* height: 625px; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: white;
+}

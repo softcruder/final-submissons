@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Border Frame</title>
+
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            table {
+                border: 2px solid #333;
+                border-collapse: collapse;
+                width: 500px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            table tr th,
+            table tr td {
+                border: 2px solid #333;
+                padding: 8px;
+            }
+
+            table tr th {
+                font-size: 1.5rem;
+            }
+            h1 {
+                position: absolute;
+                top: 20%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Table With Border</h1>
+            <table>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Lecturer's Names</th>
+                </tr>
+                <tr>
+                    <td>CPT 221</td>
+                    <td>Victor Adama</td>
+                </tr>
+
+                <tr>
+                    <td>CPT 222/223</td>
+                    <td>Dr. Bashir Mohammed</td>
+                </tr>
+
+                <tr>
+                    <td>CPT 224</td>
+                    <td>Mr Solomon Ade</td>
+                </tr>
+
+                <tr>
+                    <td>CPT 226</td>
+                    <td>Dr John Alhassan</td>
+                </tr>
+
+                <tr>
+                    <td>CIT 224</td>
+                    <td>H. O. Aliyu</td>
+                </tr>
+
+                <tr>
+                    <td>MAT 222</td>
+                    <td>Dr. Khadija James</td>
+                </tr>
+
+                <tr>
+                    <td>MAT 225</td>
+                    <td>Dr. Lawal Adamu</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

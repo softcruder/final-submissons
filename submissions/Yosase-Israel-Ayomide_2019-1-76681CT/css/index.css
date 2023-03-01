@@ -1,0 +1,42 @@
+body{
+    Background-color:#cccc;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em; 
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background-color:orangered;
+    color:#ffffff;
+}
+
+#navbar{
+    background-color:brown;
+    height:80px;
+    border:3px dotted #333333;
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:black;
+    text-decoration:none;
+    font-family:tahoma;
+    font-size:40px;
+    padding-right:60px;
+}

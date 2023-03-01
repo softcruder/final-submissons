@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Border Table</title>
+
+        <style>
+            table td,
+            table th {
+                border: 2px solid #ddd;
+                padding: 8px;
+            }
+
+            table {
+                width: 500px;
+                border-collapse: collapse;
+                height: 30px;
+                line-height: 20px;
+                margin-top: 20px;
+                margin: auto;
+            }
+
+            table th {
+                text-align: left;
+                font-size: 1.1rem;
+            }
+
+            .container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .container h1 {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Table With Border</h1>
+
+            <table>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Lecturer's Name</th>
+                </tr>
+                <tr>
+                    <td>CPT 221</td>
+                    <td>Victor Adama</td>
+                </tr>
+                <tr>
+                    <td>CPT 222 / 223</td>
+                    <td>Dr Bashir</td>
+                </tr>
+                <tr>
+                    <td>CPT 224</td>
+                    <td>Dr Solomon Adepoju</td>
+                </tr>
+                <tr>
+                    <td>CPT 226</td>
+                    <td>Dr John Alhassan</td>
+                </tr>
+                <tr>
+                    <td>CIT 224</td>
+                    <td>H.O Aliyu</td>
+                </tr>
+                <tr>
+                    <td>MAT 222</td>
+                    <td>Dr Khadija James</td>
+                </tr>
+                <tr>
+                    <td>MAT 225</td>
+                    <td>Dr Lawal Adamu</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

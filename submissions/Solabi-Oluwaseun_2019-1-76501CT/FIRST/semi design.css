@@ -1,0 +1,18 @@
+/* selected tag {
+    property: value
+ } */
+ body{
+    width: 100%;
+    padding-top: 5%;
+font-family: Arial;
+
+ }
+ a{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+a{
+    text-align: center;
+}

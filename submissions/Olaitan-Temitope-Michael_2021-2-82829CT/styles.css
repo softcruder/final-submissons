@@ -1,0 +1,211 @@
+
+.q_header{
+    font-family: Georgia;
+    color: gray;
+    position: absolute;
+    top: 10vw;
+    text-align: center;
+   
+}
+.q_header h1 {
+    text-align: center;
+    right: 50%;
+    color: gray;
+}
+.img_header p, cite{
+    font-family: cursive;
+    color: gray;
+   /* position: absolute;*/
+    /*top: 10vw;*/
+    text-align: center;
+    font-size: 3em;
+   
+}
+.img_header h1 {
+    text-align: center;
+    /*right: 50%;*/
+    font-family: Georgia, ;
+    color: gray;
+    font-size: 5em;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+height: 10vw;
+/* margin-bottom: 50%; */
+}
+.navbar a {
+float:left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navbar a:hover {
+background: #ddd;
+color: black;
+}
+.navbar a:active {
+background: green;
+color: white;
+}
+#bodydiv {
+padding: 80px;
+}
+
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+.center {
+margin-left: auto;
+margin-right: auto;
+}
+
+.rnd_img {
+    position: relative;
+    top: 11%
+    
+    
+}
+/*
+img {
+    vertical-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+/* Slideshow container */
+.slideshow-container {
+position: absolute;
+top: 20vw;
+background: #f1f1f1f1;
+height: 30vw;
+}
+
+/* Slides */
+.mySlides {
+ display: flex; 
+  padding: 80px;
+  text-align: center;
+  margin: auto;
+}
+.mySlides q {
+    font-size: 1.5em;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.img_bdy {
+    background-color: #d3d3d3;
+    
+    /*margin-left: 5%;
+    margin-right: 5%;
+    Ma */
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 60vw;
+    display: block;
+    
+}
+img{
+    margin: auto;
+    display: block;
+    padding: 15px 5px;
+    width: 690px;
+    height: 720px;
+    border-radius: 7px;
+}
+/*
+#img_2 img{
+    display: inline;
+    padding: 2%;
+    width: 270px;
+    height: 320px;
+    border-radius: 10px;
+}
+#img_3 img{
+    display: inline;
+    padding: 2%;
+    width: 270px;
+    height: 320px;
+    border-radius: 10px;
+}
+*/
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+/* Scaling down for smaller sizes 
+@media screen and (max-width:750px) {
+    .navbar{
+        width: 100%;
+        margin-top: 0;
+        display: block;
+    }
+} */

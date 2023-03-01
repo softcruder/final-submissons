@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Borderless Table</title>
+<style>
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}
+.navbar a {
+float:left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+.navbar a:active {
+background: #008000;
+color: white;
+}
+.identity {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 2vw;
+        font-family: Georgia, Sans-Serif;
+        float: left;
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20vw;
+        /*border: 2px ridge grey;*/
+    }
+.container {
+    padding-top: 10vw;
+}
+table {
+    border: 1px solid black;
+    border-style: hidden;
+}
+th, td {
+border: 5px solid black;
+border-style: hidden;
+padding: 10px;
+text-align: center;
+}
+.center{
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+}
+.center caption {
+    font-size: 3vw;
+    padding-bottom: 10px;
+}
+</style>
+</head>
+<body>
+             <!--
+         Navigation Bar
+         -->
+         <div class = "navbar">
+<a href = "home.html">HOME</a>
+<a href = "about_me.html">ABOUT ME</a>
+<a href = "course_reg.html">COURSE REGISTRATION</a>
+<a href = "cv.html">CURRICULUM VITAE</a>
+<a href = "fruits.html">FRUITS</a>
+<a href = "The Web.html">THE CONCEPTUAL DEFINITION OF THE WEB</a>
+<a href="frameset.html">FRAMESET</a>
+<a href="borderless_table.html">BORDERLESS TABLE</a>
+<a href="bordered_table.html">BOREDERED TABLE</a>
+<a href="form_alt2.html">HTML FORM</a>
+<a href="nested_table.html">NESTED TABLE</a>
+</div>
+<!-- End of Navigation Bar -->
+    
+<div class="identity">
+    <p>NAME: OLAITAN TEMITOPE MICHAEL</p>
+    <p>MATRIC NUMBER: 2021/2/82829CT</p>
+    <p>CLASS NUMBER: 43</p>
+</div>
+
+<br>
+
+<div class = "container">
+<table class = center>
+<caption>2<sup>nd</sup> Semester Courses with their corresponding lecturers</caption>
+<!-- <caption style = "caption-side: bottom">Total Credit Units: 24</caption> -->
+<tr>
+<thead>
+<th>S/N</th>
+<th>COURSE TITLE</th>
+<th>COURSE CODE</th>
+<th>COURSE LECTURER</th>
+<!-- <th>COURSE TYPE</th> -->
+<thead>
+</tr>
+<tr><td>1</td><td>Discrete Mathematical Structure</td><td>CIT224</td><td>H.O. Aliyu</td>
+<tr><td>2</td><td>Object-Oriented Programming II</td><td>CPT221</td><td>Mr. Victor Adama</td>
+<tr><td>3</td><td>Data Structures</td><td>CPT222</td><td>Dr. Bashir</td>
+<tr><td>4</td><td>Introduction to Algorithms</td><td>CPT223</td><td>Dr.Bashir</td>
+<tr><td>5</td><td>Introduction to Web Design</td><td>CPT224</td><td>Mr. Solomon Ade</td>
+<tr><td>6</td><td>Hardware Systems and Maintenance</td><td>CPT226</td><td>Dr. John</td>
+<tr><td>7</td><td>Linear Algebra II</td><td>MAT222</td><td>Dr. Khadija James</td>
+<tr><td>8</td><td>Introduction to Numerical Analysis</td><td>MAT225</td><td>Dr. Lawal</td>
+</table>
+</div>
+
+</body>
+</html>

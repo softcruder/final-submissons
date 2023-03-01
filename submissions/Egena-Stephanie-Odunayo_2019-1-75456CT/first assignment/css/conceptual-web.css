@@ -1,0 +1,62 @@
+body { 
+  padding : 4rem 5% ; 
+  font-size: 1.6rem ;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-align: center ; 
+  text-transform: uppercase ; 
+  ;
+  color: var(--primary-color);
+  text-align: center;
+  text-shadow: 0 0 1rem rgba(224, 224,224, 1);
+  font-family: "Poppins", "Inter", "Roboto", sans-serif;;
+ 
+  font-weight: 400 ; ;
+  font-size: 2.8rem ;
+  transition: .2s linear;
+}
+h1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+ol {
+  padding-left: 1rem;
+  margin-bottom: 1rem ;
+}
+li {
+  line-height: 1.2
+  ;
+  list-style-position: inside;
+
+}
+body > p {
+  margin-top: 2rem ;
+
+}
+body > div { 
+  margin-bottom: 4rem ;;
+}
+body > div:nth-of-type(1) { 
+  margin-top: 4rem ;;
+}
+body> div h2 {
+  font-size: 1.5rem ; 
+  font-weight: 500; 
+  ;
+  margin-bottom: .8rem ; ;
+  color : #1bb41b ;
+  transition: .2s linear;
+  transform-origin: left;
+
+}
+h2:hover { 
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+body> div p  {
+    text-align: justify;
+
+}

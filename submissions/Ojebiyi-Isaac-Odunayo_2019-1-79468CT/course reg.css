@@ -1,0 +1,30 @@
+table{
+	font-family: sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+	margin-left: 50px;
+}
+
+th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+h4{
+	text-align: center;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+p{
+	line-height: 4.5px;
+}

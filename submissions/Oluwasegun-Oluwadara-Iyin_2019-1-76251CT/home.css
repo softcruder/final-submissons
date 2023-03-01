@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top left, #eecd5f, #db8523ca); 
+}
+
+.header {
+    display: flex;
+    text-size: medium;
+    width: 100%;
+    height: 5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #fff;
+    box-shadow:  1px 0px 1px 1px rgba(0,0,0,0.2);
+}
+
+.Homepage_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.User_Details a ,p,h2 ,h1 ,h3,li{
+color: #0e0d0d;
+}
+.header a {
+
+    color: #000;
+
+}
+.newspaper {
+    height: 100%;
+    font-family: 'Satoshi', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.User_Details a {
+    text-decoration: none;
+
+}
+.User_Details_Header{
+    height: 20%;
+}
+.User_Details_Body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.User_Details_Body p{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.User_Details {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: calc(100vh /3);
+    justify-content: center;
+    text-size: medium;
+}
+
+.User_Education_header {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.User_Education_Details {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.User_Education_Details_Item {
+    display: flex;
+    flex-direction: column;
+
+    gap: .6rem;
+    width: 30%;
+    align-items: flex-start;
+    justify-content: center;
+    border-right: 1px solid #e5e5e5;
+}
+
+.User_Education_Details_Item div {
+    height: 100%;
+    width: 95%;
+
+}
+.User_Education_Details_Item p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.User_Education {
+    height: calc(100vh /3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.User_Experience_Body {
+    height: 90%;
+}
+
+.User_Experience {
+    height: calc(100vh /3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.User_Experience_Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    justify-content: center;
+    width: 80%;
+}
+
+.User_Experience_Body ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .8rem;
+}
+
+.User_Experience_Body li {
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.User_Experience_Header {
+    height: 20%;
+}
+
+.Assignment_Body {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header a {
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+

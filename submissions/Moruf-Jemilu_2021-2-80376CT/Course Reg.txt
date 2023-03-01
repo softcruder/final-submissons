@@ -1,0 +1,174 @@
+<!DOCTYPE html> 
+<html>
+   <head>    
+   <title>Registered Students Course Form</title>    </head>
+   <body>   
+ <center>
+<h1>FEDERAL UNIVERSITY OF TECHNOLOGY, MINNA.</h1>
+<h2> <center> Students Course Registration </center></h2>
+</center>
+<p> Matric No: 2021/2/80376CT <br/>
+ Name: Moruf Jemilu</p>
+  <center>
+<p>Session: 2021/2022<br/>
+1st Semester Courses </p>
+<table border = "1" WIDTH="100%" >      
+    <tr>    
+  <th>Course code</th>  
+  <th>Course Title</th>     
+    <th>Units</th>  
+  <th>Semester</th>
+  <th>Type</th>
+</tr>    
+ 
+   <tr>        
+     <td>CPT221</td>          
+   <td>Object oriented programming 1</td>    
+   <td>3</td>  
+   <td>1st</td>  
+   <td>Core</td>  
+      </tr>    
+      <tr>        
+     <td>CPT213</td>          
+   <td>Computer Organization and Assembly Language</td>    
+   <td>3</td>  
+   <td>1st</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>CPT214</td>          
+   <td>Computer Architecture</td>    
+   <td>3</td>  
+   <td>1st</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>CSS216</td>          
+   <td>Cryptography Theory 1</td>    
+   <td>3</td>  
+   <td>1st</td>  
+   <td>Elective</td>  
+      </tr>      
+ <tr>        
+     <td>GST211</td>          
+   <td>Logic and philosophy</td>    
+   <td>2</td>  
+   <td>1st</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>MAT212</td>          
+   <td>Linear Algebra 1</td>    
+   <td>2</td>  
+   <td>1st</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>MAT216</td>          
+   <td>Mathematical Method 1</td>    
+   <td>3</td>  
+   <td>1st</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>STA217</td>          
+   <td>Probability II</td>    
+   <td>3</td>  
+   <td>1st</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>GST110</td>          
+   <td>Use of English I and Library</td>    
+   <td>3</td>  
+   <td>1st</td>  
+   <td>Core</td>  
+      </tr>      
+</table>  
+<p> <b>Total Credit Units: 24  </b></p>
+<br/>
+<p>2st Semester Courses </p>
+<table border = "1"  WIDTH="100%" >      
+    <tr>    
+  <th>Course code</th>  
+  <th>Course Title</th>     
+    <th>Units</th>  
+  <th>Semester</th>
+  <th>Type</th>
+</tr>    
+ <tr>        
+     <td>CIT224</td>          
+   <td>Discrete Mathematical Structure</td>    
+   <td>3</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>CPT221</td>          
+   <td>Object Oriented programming II</td>    
+   <td>3</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>CPT222</td>          
+   <td>Data Structures</td>    
+   <td>3</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>CPT223</td>          
+   <td>Introduction to Algorithms</td>    
+   <td>3</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>CPT224</td>          
+   <td>Introduction to Web Design</td>    
+   <td>2</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>CPT226</td>          
+   <td>Hardware Systems and Maintenance</td>    
+   <td>3</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>MAT222</td>          
+   <td>Linear Algebra II</td>    
+   <td>2</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>MAT225</td>          
+   <td>Introduction to Numerical Analysis</td>    
+   <td>3</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>GST103</td>          
+   <td>Nigerian peoples and Culture</td>    
+   <td>2</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+ <tr>        
+     <td>GST121</t>          
+   <td>Use of English II</td>    
+   <td>3</td>  
+   <td>2nd</td>  
+   <td>Core</td>  
+      </tr>      
+</table>
+<p> <b>Total Credit Units: 24  </b></p><br/>
+<p><a href='homepage 1.html'>HOME</a></p>
+</center>
+</body> 
+</html>

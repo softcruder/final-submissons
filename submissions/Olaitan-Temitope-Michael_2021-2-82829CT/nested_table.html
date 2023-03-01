@@ -1,0 +1,84 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Nested Table</title>
+            <style>
+            .navbar {
+overflow: hidden;
+background-color: #333;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}
+.navbar a {
+float:left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+.navbar a:active {
+background: #008000;
+color: white;
+}
+            
+                #tbl {
+                    
+                    margin-top: 20vw;
+                }
+            </style>
+        </head>
+        <body>
+         <!--
+         Navigation Bar
+         -->
+         <div class = "navbar">
+<a href = "home.html">HOME</a>
+<a href = "about_me.html">ABOUT ME</a>
+<a href = "course_reg.html">COURSE REGISTRATION</a>
+<a href = "cv.html">CURRICULUM VITAE</a>
+<a href = "fruits.html">FRUITS</a>
+<a href = "The Web.html">THE CONCEPTUAL DEFINITION OF THE WEB</a>
+<a href="frameset.html">FRAMESET</a>
+<a href="borderless_table.html">BORDERLESS TABLE</a>
+<a href="bordered_table.html">BOREDERED TABLE</a>
+<a href="form_alt2.html">HTML FORM</a>
+<a href="nested_table.html">NESTED TABLE</a>
+</div>
+<!-- End of Navigation Bar -->
+            
+            <div id = "tbl">
+            <table align = "center" border = "1" bgcolor = "gray" width = "500" height = "500">
+                <tr>
+                    <th>
+                        <table align = "center" border = "1" bgcolor = "blue" width = "400" height = "400">
+                            <tr>
+                                <th>
+                                    <table align = "center" border = "1" bgcolor = "red" width = "300" height = "300">
+                                        <tr>
+                                            <th>
+                                                <table align = "center" border = "1" bgcolor = "yellow" width = "200" height = "200">
+                                                    <tr>
+                                                        <th>
+                                                            <table align = "center"  border = "1" bgcolor = "white" width = "100" height = "100">
+                                                                <tr>
+                                                                    <th> Inner Table</th>
+                                                                </tr>
+                                                        </th>
+                                                    </tr>
+                                            </th>
+                                        </tr>
+                                </th>
+                            </tr>
+                    </th>
+                </tr>
+            </table>
+            </div>
+        </body>
+    </html>

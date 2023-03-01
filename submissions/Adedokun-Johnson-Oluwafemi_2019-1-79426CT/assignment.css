@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin-top: 60px;
+    max-width: 90%;
+    margin-left: 65px;
+    background-color: rgba(196, 196, 196, 0.35);
+    font-size: 20px !important;
+}
+
+li{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+h2{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+li{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+p{
+    padding-bottom: 20px;
+}

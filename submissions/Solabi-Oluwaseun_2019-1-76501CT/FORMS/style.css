@@ -1,0 +1,22 @@
+/* selected tag {
+    property: value
+ } */
+ body{
+    width: 100%;
+    padding-top: 5%;
+font-family:'Franklin Gothic',sans-serif;
+
+
+ }
+ td {
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+}
+button{
+    background-color: red;
+    color: white;
+}
+:hover button{
+    color: rgb(255, 255, 255);
+}

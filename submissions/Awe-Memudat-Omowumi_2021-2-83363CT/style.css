@@ -1,0 +1,31 @@
+body{
+	margin-top:40px;
+	background-color:white;
+}
+.rr{
+	margin-top:-15px;
+}
+.tr{
+	margin-top:-15px;
+}
+.onr{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+}
+table{
+	margin-top:-15px;
+}
+thead{
+	background-color:black;
+	
+}
+thead tr th{
+	border-left:1px solid gray;
+	color:white;
+	
+}
+tbody tr td{
+	border-bottom:1px solid gray;
+	border-left:1px solid gray;	
+}

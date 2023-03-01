@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses registration</title>
+
+    <style>
+        *{
+            padding: 0;
+            box-sizing: border-box;
+            margin: 0;
+        }
+		body{
+            width: 100%;
+			font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			font-size: 18px;
+		}
+		nav{
+			width: 100%;
+			max-width: 800px;
+			margin: 10px auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			top: 0;
+			height: 40px;
+		}
+		li{
+			text-transform: capitalize;
+			list-style: none;
+			text-transform: capitalize;
+			list-style: none;
+			border:2px solid black;
+			padding:10px;
+			text-align: center;
+			background-color: purple;
+			color: black;
+		}
+		.nav-item{
+			margin: 4px 10px;
+			font-size: 20px;
+		}
+
+		.nav-link{
+			text-decoration: none;	
+		}
+
+        table{
+            margin: 10px auto;
+            border: 2px solid black;
+            padding: 1px;
+            border-radius: 5px;
+            background-color: black;
+            width: 1000px;
+        }
+
+        thead{
+            width: 100%;
+            color: white;
+            background-color: black;
+            padding: 7px 12px;
+        }
+        tbody{
+            background-color: white;
+        }
+        tr{
+            border: 1px solid rgb(89, 87, 87);
+        }
+        
+        th,td{
+            text-transform: capitalize;
+            padding: 4px 2px;
+            text-align: left;
+        }
+        a{
+        	color:white;
+        }
+        a:hover{
+			text-transform: capitalize;
+			list-style: none;
+			border:2px solid white;
+			padding:10px;
+			text-align: center;
+			background-color: green;
+			color: black;
+		}
+    </style>
+</head>
+<body>
+    <nav>
+		<li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+		<li class="nav-item"><a href="./course.html" class="nav-link">Course registration</a></li>
+		<li class="nav-item"><a href="./web.html" class="nav-link">Web</a></li>
+		<li class="nav-item"><a href="./resume.html" class="nav-link">Resume</a></li>
+        <li class="nav-item"><a href="./frame.html" class="nav-link">Frame</a></li>
+
+	</nav>
+    <table>
+        <thead>
+            <tr>
+                <th>Course Code</th>
+                <th>Course Title</th>
+                <th> Unit</th>
+                <th>Semester</th>
+                <th>Nature</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CPT221</td>
+                <td>Object-Oriented Programming I</td>
+                <td>3</td>
+                <td>1st</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>CPT213</td>
+                <td>Computer Organization and Assembly Language</td>
+                <td>2</td>
+                <td>1st</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>CPT214</td>
+                <td>Computer Architecture</td>
+                <td>3</td>
+                <td>1st</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>CSS216</td>
+                <td>Cryptography Theory I</td>
+                <td>3</td>
+                <td>1st</td>
+                <td>Elective</td>
+            </tr>
+            <tr>
+                <td>GST211</td>
+                <td>Logic and Philosophy</td>
+                <td>2</td>
+                <td>1st</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>MAt212</td>
+                <td>Linear Algebra I</td>
+                <td>2</td>
+                <td>1st</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>MAT216</td>
+                <td>Mathematical Methods I</td>
+                <td>3</td>
+                <td>1st</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>STA217</td>
+                <td>Probability II</td>
+                <td>3</td>
+                <td>1st</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>CIT224</td>
+                <td>Discrete Mathematical structure</td>
+                <td>3</td>
+                <td>2nd</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>CPT221</td>
+                <td>Object-Oriented Programming II</td>
+                <td>3</td>
+                <td>2nd</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>CPT222</td>
+                <td>Data structures</td>
+                <td>3</td>
+                <td>2nd</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>CPT223</td>
+                <td>introduction to algorithms</td>
+                <td>3</td>
+                <td>2nd</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>CPT224</td>
+                <td>introduction to web design</td>
+                <td>2</td>
+                <td>2nd</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>CPT226</td>
+                <td>hardwrae systems and maintenance</td>
+                <td>1</td>
+                <td>2nd</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>MAT222</td>
+                <td>LInear algebra II</td>
+                <td>2</td>
+                <td>2nd</td>
+                <td>Core</td>
+            </tr>
+            <tr>
+                <td>MAT225</td>
+                <td>introduction to numerical analysis</td>
+                <td>3</td>
+                <td>2nd</td>
+                <td>Core</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

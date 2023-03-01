@@ -1,0 +1,1067 @@
+
+
+
+/*mobile*/
+@media (max-width: 500px){
+
+
+    .icon{
+        color: #232323;
+        background-color: #232323;
+    }
+
+    .login a h2{
+       position: absolute;
+       width: 100px;
+       margin-top: 32px;
+       left: 69% !important;
+       top: 13% !important;
+       color: black;
+       background-color: #FFFFFF;
+       text-align: center;
+       border-radius: 25px;
+       font-size: 18px;
+   }
+
+
+   .navbar .lap{
+       width: 583px;
+       height: 360px;
+       position: absolute;
+       left: -100px;
+   }
+   .navbar .container{
+       max-width: 50%;
+       margin: 0 auto;
+   }
+   
+   .navbar .logo {
+       position: absolute;
+       width: 37%;
+       font-size: 24px;
+       left: 80px;
+       color: #FFFFFF;
+       top: 15px;
+       background-color: #232323;
+   
+   }
+   
+   .navbar .flex{
+       display: flex;
+       justify-content: space-between;
+       padding-top: 20px;
+       flex-direction: column;
+       
+       
+   }
+   
+   .navbar ul{
+       display: flex;
+       padding: 5px;
+   
+   }
+   
+   .navbar a{
+       max-width: 60%;
+       margin: 0 auto;
+       padding: 10px;
+       margin: 0 5px;
+       text-decoration: none ;  
+       color: white !important;
+       
+   }
+   
+   .navbar a:hover{
+       border-bottom: 2px white solid !important;
+   }
+
+   li a:hover{
+    border-bottom: 2px white solid !important;
+   }
+   
+    .navbar nav{
+       width: 20%;
+       position: absolute;
+       left: 1%;
+       top: 55px;
+       border-radius: 10px;
+   }
+
+   #menuToggle {
+        display: block;
+        position: relative;
+        top: 45px;
+        left: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    
+
+    #menuToggle a{
+        text-decoration: none;
+        color: #232323;       
+        transition: color 0.3s ease;}
+
+
+    #menuToggle a:hover{
+    color: tomato;
+    }
+
+    .containerr {
+        top: 120px;
+        position: absolute;
+        width: 20px;
+        height: 200px;
+        
+    }
+
+    #menuToggle input
+    {
+    display: block;
+    width: 70px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    
+    cursor: pointer;
+    
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    
+    -webkit-touch-callout: none;
+    }
+
+    /*
+    * Just a quick hamburger
+    */
+    #menuToggle span
+    {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    
+    background: #cdcdcd;
+    border-radius: 3px;
+    
+    z-index: 1;
+    
+    transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+    }
+
+    #menuToggle span:first-child
+    {
+    transform-origin: 0% 0%;
+    }
+
+    #menuToggle span:nth-last-child(2)
+    {
+    transform-origin: 0% 100%;
+    }
+
+    /* 
+    * Transform all the slices of hamburger
+    * into a crossmark.
+    */
+    #menuToggle input:checked ~ span
+    {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+    }
+
+    /*
+    * But let's hide the middle one.
+    */
+    #menuToggle input:checked ~ span:nth-last-child(3)
+    {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    /*
+    * Ohyeah and the last one should go the other direction
+    */
+    #menuToggle input:checked ~ span:nth-last-child(2)
+    {
+    transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    /*
+    * Make this absolute positioned
+    * at the top left of the screen
+    */
+    #menu {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    padding: 50px;
+    padding-top: 15px;
+    top: 1px;
+    left: -110px;
+    
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    #menu li{
+        padding: 10px 0;
+        font-size: 22px;
+    }
+
+    #menu ul{
+        position: absolute;
+        margin-top: 100px;
+    }
+
+    /*
+    * And let's slide it in from the left
+    */
+    #menuToggle input:checked ~ ul
+    {
+    transform: none;
+    }
+   
+   
+.section-1{
+   position: absolute;
+   width: 46%;
+   height: 26%;
+   left: 27%;
+   margin-top: 240px;
+   text-align: center;
+}
+
+.section-1 p{
+   color: #16003B;
+   font-size: 30px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+}
+
+.section-1 h2{
+   color: #16003B;
+   font-size: 20px;
+}
+
+.section-2{
+   width: 84% !important;
+   height: 15% !important;
+   position: absolute;
+   top: 75% !important;
+   left: 8% !important;
+   
+}
+
+.section-2 h4{
+   color: #16003B;
+}
+
+.section-2 .shop a h3{
+   position: absolute;
+   color: white;
+   border-radius: 14px;
+   background-color: #16003B;
+   margin: 10px 0;
+   padding: 5px;
+   text-align: center;
+   top: 100px;
+   width: 20%;
+   left: 300px;
+}
+   
+.section-3{
+    position: absolute;
+    width: 481px;
+    height: 300px !important;
+    top: 598px;
+}
+.section-3 .box{
+    background-color: #F73D93;
+    position: absolute;
+    top: 1px;
+    margin-top: 1px;
+    width: 481px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.section-3 .box .box-1{
+    margin: 10px 40px;
+    width: 90%;
+    height: 60%;
+    color: white;
+}
+
+.section-3 .box .box-1 h1{
+    color: white;
+    font-size: 40px;
+}
+
+.section-3 .box .box-1 h4{
+    color: white;
+    font-size: 15px;
+}
+
+.section-4{
+    background-color: #F73D93;
+    width: 481px;
+    height: 50%;
+    position: absolute;
+    top: 891px;
+    margin-top: 1px;
+    left: 0px;
+    border-radius: 8px;
+}
+
+
+.box-2{
+    position: absolute;
+    width: 300px;
+    height: 63%;
+    color: white;
+    padding-left: px;
+    left: 70px;
+}
+
+.box-2 h1{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    padding-top: 20px;
+}
+
+.box-2 h4{
+    color: white;
+    font-size: 15px;
+    margin-left: 84px;
+}
+
+.section-4 .lap-2{
+    position: absolute;
+    width: 80%;
+    height: 300px;
+    top: -60px;
+    left: -150px;
+}
+
+.section-4 .shop1 a h1{
+    position: absolute;
+    color: red !important;
+    border-radius: 14px;
+    background-color: white;
+    margin: 10px 0;
+    padding: 5px;
+    text-align: center;
+    text-size-adjust: 10;
+    width: 30%;
+    top: 100px;
+}
+
+.section-4 .shop1 a h1{
+    font-size: small;
+}
+
+
+.section-5{
+    position: absolute;
+    top: 1220px;
+    left: 10%;
+    width: 400px;
+}
+
+.section-5 .best-seller{
+    text-align: center;
+}
+
+
+.section-6{
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    top: 1360px;
+    margin-left: 50px;
+}
+
+.section-6 .item1{
+    width: 70%;
+    height: 90%;
+    background-color: #FFB6C159;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.section-6 .item1 h4{
+    font-style: normal;
+}
+
+.section-6 .fa{
+    color: #E5E520;
+    ;
+}
+
+.section-6 .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 440px;
+}
+
+.section-6 .lapi{
+    width: 290px;
+    height: 360px;
+}
+
+.section-6 .love{
+    position: absolute;
+    left: 90%;
+    top: 98%;
+}
+
+.section-6 .love-2{
+    position: absolute;
+    left: 87%;
+    top: 1080px;
+}
+
+.section-6 .love-3{
+    position: absolute;
+    left: 89%;
+    top: 1660px;
+}
+
+
+.section-7{
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    top: 3120px;
+    margin-left: 73px;
+   
+}
+
+.section-7 .item1{
+    width: 70%;
+    height: 98%;
+    background-color: #FFB6C159;
+    padding-left: 54px;
+    margin-top: 20px;
+}
+
+.section-7 .item1 h4{
+    font-style: normal;
+}
+
+
+.section-7 .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 15px;
+}
+
+.section-7 .lapi{
+    width: 290px;
+    height: 360px;
+}
+
+.section-7 .mobile{
+    width: 240px;
+    height: 200px;
+    padding-top: 60px;
+}
+
+
+.section-8 a{
+    position: absolute;
+    top: 4260px;
+    left: 28%;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: red;
+    font-size: small;
+}
+
+.section-8 .explore .h1{
+    text-align: center;
+}
+
+
+.section-9{
+    width: 70%;
+}
+.section-9 .box{
+    background-color: #F73D93;
+    position: absolute;
+    top: 4400px;
+    margin-top: 1px;
+    width: 481px;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.section-9 .box .box-1{
+    margin: 50px 40px;
+    top:    2400px ;
+    width:  400px;
+    height: 60%;
+    color: white;
+}
+
+.section-9 .box .box-1 h1{
+    color: white;
+    font-size: 40px;
+}
+
+.section-9 .box .box-1 h4{
+    color: white;
+    font-size: 15px;
+}
+
+
+.section-9 .watch{
+    position: absolute;
+    width: 406px;
+    height: 400px;
+    bottom: -2px;
+    left: -60px;
+    
+}
+
+.section-9 .boxes{
+    background-color: #F73D93;
+    top: 4400px;
+    left: 0px;
+    margin-top: 1px;
+    width: 10px;
+    height: 10%;
+    border-radius: 8px;
+}
+
+.section-9 .boxes .box-2{
+    position: absolute;
+    top:    280px ;
+    width:  300px;
+    height: 209px;
+    color: red;
+    left: 120px;
+}
+
+.section-9 .shop a h3{
+    position: absolute;
+    color: green;
+    border-radius: 14px;
+    background-color: white;
+    top: 450px;
+    left: 230px;
+    padding: 5px;
+    text-align: center;
+    width: 130px;
+    height: 20px;
+    bottom: 10px;
+    margin-left: 60px;
+    font-size: small;
+}
+
+
+
+.section-10 {
+    position: absolute;
+    top: 5000px;
+    left: -140px;
+    width: 622px;
+    height: 900px;
+    background-color: #C4C4C459;
+    
+}
+
+.section-10 .box-5{
+    position: absolute;
+    left: 34%;
+    width: 400px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-10 .engineer h3{
+    position: absolute;
+   padding-top: 15px;
+    text-align: center;
+    font-size: small;
+    width: 300px;
+    top: 50px;
+    left: 30px;
+}
+
+.section-10 .engineer h1{
+    position: absolute;
+    left: 35px;
+}
+
+.section-10 .images{
+    width: 400px;
+    height: 300px;
+    margin-left: -58px;
+}
+
+.section-10 .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 200px;
+}
+
+.section-10 .container{
+    margin-top: 200px;
+    gap: 3px;
+}
+
+.section-10 .images2{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 200px;
+    top: 520px;
+    
+}
+
+.section-10 .images4{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 200px;
+    top: 1190px;
+}
+
+.section-10 .images3{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 850px;
+    left: 200px;
+}
+
+
+
+.section-11{
+    position: absolute;
+    top: 6600px;
+    width: 100%;
+    height: 1800px;
+    background-color: #16003B;
+}
+
+.section-11 .customer{
+    position: absolute;
+    top: 30px;
+    width: 300px;
+    text-align: center;
+    color: #FFFFFF;
+    right: 101px;
+}
+
+.section-11 .customer h2{
+    font-size: 16px;
+    color: #cdcdcd;
+}
+
+.section-11 .grid1{
+    position: absolute;
+    text-align: center;
+    margin-left: 120px;
+    width: 360px;
+    height: 54px;
+    background-color: #FFFFFF;
+}
+
+.section-11 .grid1 h4{
+    color: black;
+    background-color: #FFFFFF;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.section-11 .fa{
+    color: yellow;
+    width: px;
+}
+
+.section-11 .group{
+    width: 120px;
+    height: 90px;
+    margin-top: 40px;
+}
+
+.section-11 .b1{
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 360px;
+}
+
+.section-11 .grid1{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+     row-gap: 30px;
+     margin-left: 49px;
+     margin-top: 120px;
+}
+
+
+
+.section-12{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 8450px;
+    margin-left: 10px;
+}
+
+.section-12 .other{
+    text-align: center;
+}
+
+.section-12 .item1{
+    width: 70%;
+    height: 100%;
+    background-color: #FFB6C159;
+    padding-left: 34px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.section-12 .item2{
+    width: 70%;
+    height: 100%;
+    background-color: #FFB6C159;
+    padding-left: 34px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.section-12 .item3{
+    width: 70%;
+    height: 100%;
+    background-color: #FFB6C159;
+    padding-left: 34px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.section-12 .item4{
+    width: 70%;
+    height: 100%;
+    background-color: #FFB6C159;
+    padding-left: 34px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.section-12 .item5{
+    width: 70%;
+    height: 90%;
+    background-color: #FFB6C159;
+    padding-left: 34px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.section-12 .item1 h1 h4{
+    text-align: center;
+    
+}
+
+.section-12 .item1 h4{
+    font-style: normal;
+    color: rgb(58, 60, 61);
+
+}
+
+.section-12 .item1 img{
+    position: absolute;
+    padding: 2px;
+    width: 30px;
+    left: 29px;
+}
+
+.section-12 .item2 img{
+    position: absolute;
+    padding: 2px;
+    width: 29px;
+    left: 260px;
+}
+
+.section-12 .item3 img{
+    position: absolute;
+    padding: 2px;
+    width: 29px;
+    left: 40px;
+    top: 330px;
+}
+
+.section-12 .item4 img{
+    position: absolute;
+    padding: 2px;
+    width: 29px;
+    left: 260px;
+}
+
+.section-12 .item5 img{
+    position: absolute;
+    padding: 2px;
+    width: 29px;
+    left: 40px;
+}
+
+.section-12 .grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    row-gap: 30px;
+}
+
+.section-12 .lapi{
+    width: 200px;
+    height: 160px;
+}
+
+.section-12 .mobile{
+    width: 200px;
+    height: 100px;
+    padding-top: 60px;
+    margin-left: 60px;
+}
+
+
+
+
+.section-13{
+    position: absolute;
+    top: 9160px;
+    width: 100%;
+    height: 1000px;
+    background-color: #16003B;
+}
+
+
+
+.section-13 .customer{
+    width: 300px;
+    text-align: center;
+    margin-left: 550px;
+    color: white;
+    padding-top: 20px;
+}
+
+.section-13 .customer h2{
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.section-13 .grid1{
+    position: absolute;
+    text-align: center;
+    margin-left: 120px;
+    width: 360px;
+    height: 54px;
+    background-color: #FFFFFF;
+}
+
+.section-13 .grid1 h4{
+    color: black;
+    background-color: #FFFFFF;
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+.section-13 .group{
+    width: 120px;
+    height: 90px;
+    margin-top: 40px;
+}
+
+
+
+.section-13 .b1{
+    margin-top: 90px;
+    background-color: #16003B;
+    height: 400px;
+    width: 210px;
+    position: absolute;
+    left: -120px;
+    top: -59px;
+}
+
+.section-13 .b1 .get{
+    color: white;
+}
+
+.section-13 .b1 a h4{
+    width: 100px;
+    background-color: #16003B;
+    font-size: 12px;
+    color: white;
+}
+
+.section-13 .grid1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    width: 300px;
+    gap: 50px;
+    background-color: #16003B;
+}
+
+.section-13  .home a{
+    position: absolute;
+    color: white;
+    background-color: #16003B;
+    top: 100px;
+    left: 39px;
+    text-align: start;
+}
+
+.section-13  .about a{
+    position: absolute;
+    color: white;
+    background-color: #16003B;
+    top: 160px;
+    left: 39px;
+    text-align: start;
+}
+
+.section-13  .product a{
+    position: absolute;
+    color: white;
+    background-color: #16003B;
+    top: 220px;
+    left: 39px;
+    text-align: start;
+}
+
+.section-13  .service a{
+    position: absolute;
+    color: white;
+    background-color: #16003B;
+    top: 280px;
+    left: 39px;
+    text-align: start;
+}
+
+.section-13  .contact a{
+    position: absolute;
+    color: white;
+    background-color: #16003B;
+    top: 379 px;
+    left: 39px;
+    text-align: start;
+}
+
+.section-13  .privacy a{
+    position: absolute;
+    color: white;
+    background-color: #16003B;
+    top: 343px;
+    left: 39px;
+    text-align: start;
+}
+
+.last{
+    position: absolute;
+    top: 9189px;
+    left: 219px;
+    width: 170px;
+
+}
+
+.last .get{
+    color: white;
+}
+
+.last h4{
+    font-size: small;
+}
+.last .g{
+    margin-bottom: 2px;
+}
+
+
+ .last2{
+    position: absolute;
+    top: 259px;
+    left: 1px;
+    width: 170px;
+
+}
+
+.last2 .get{
+    color: white;
+}
+
+.last2 h4{
+    font-size: small;
+}
+
+.last2 .b1 .gete h2{
+    position: absolute;
+    left: -168px;
+    color: #FFFFFF;
+}
+
+
+.last2 .gs{
+    position: absolute;
+    margin-top: 19px;
+    width: 400px;
+    height: 200px;
+    color: rgb(189, 198, 207);
+    top: 60px;
+    left: -173px;
+}
+
+.rec{
+    position: absolute;
+    top: 556px;
+}
+
+.all h4{
+    position: absolute;
+     background-color:  #0B001D;
+     color: #FFFFFF;
+     width: 100%;
+     top: 1000px;
+     height: 70px;
+     text-align: center;
+     font-size: x-small;
+     border-bottom-left-radius: 12px solid #16003B;
+}
+
+
+}
+
+
+
+

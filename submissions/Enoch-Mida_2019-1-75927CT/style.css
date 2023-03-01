@@ -1,0 +1,142 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 90%;
+    margin-left: 65px;
+    font-family: 'Merriweather-Light' sans-serif;
+    background-color: rgba(196, 196, 196, 0.35);
+}
+
+.johnson{
+    background-color: rgba(196, 196, 196, 0.35) !important;
+}
+
+.pic{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 1090px;
+}
+
+.header{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.matric{
+    font-size: 20px;
+}
+
+.courses{
+    text-align: center;
+    padding-top: 180px;
+}
+
+.flex{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.items{
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.tab{
+    text-align: left;
+}
+
+.semester{
+    padding-right: 0px;
+}
+
+.nature{
+    padding-right: 0px;
+}
+
+.code{
+    padding-right: 200px;
+}
+
+th{
+    padding-right: 180px;
+    font-size: 18px;
+    border-color: black;
+    border: black 1px solid;
+}
+
+
+
+td{
+    padding-right: 170px;
+    font-size: 17px;
+    border-color: black;
+    border: black 1px solid;
+}
+
+.total{
+    text-align: center;
+    font-size: 20px;
+}
+
+.section-2 .course{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.section-3 .courses{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.section-4{
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px 200px;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 500px 100px 200px 200px;
+}
+
+li{
+    list-style: none;
+    font-size: 18px;
+    border: black 1px solid;
+}
+
+h3{
+    list-style: none;
+    font-size: 18px;
+    border: black 1px solid;
+}
+
+.credit{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+label {
+    font: 1rem;
+}
+
+input {
+    margin: .4rem;
+}
+
+.fieldset{
+    width: 230px;
+    margin-top: 30px;
+}
+
+
+

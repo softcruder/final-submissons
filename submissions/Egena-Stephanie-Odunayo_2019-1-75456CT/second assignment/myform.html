@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COURSE FORM</title>
+  <style>
+    form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60%;
+      text-align: center;
+      border: solid 1px #ccc;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .personal-info {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-family: Verdana, sans-serif;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+
+    label, input {
+      font-family: Verdana, sans-serif;
+      font-size: 1.2em;
+    }
+
+    label{
+      display: inline-block;
+      width: 30%;
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    input{
+      width: 60%;
+      display: inline-block;
+      padding: 10px;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="personal-info">
+    <p>Name: ?!</p>
+    <p>Matric Number: ?!</p>
+  </div>
+  <form>
+    <h1>COURSE FORM</h1>
+    <label for="course-title">Course Title:</label>
+    <input type="text" id="course-title" value="CPT 224" readonly>
+    <br>
+    <label for="course-name">Course Name:</label>
+    <input type="text" id="course-name" value="Introduction to Web design" readonly>
+    <br><br>
+    <button type="submit">OK</button>
+    <button type="reset">CANCEL</button>
+  </form>
+</body>
+</html>

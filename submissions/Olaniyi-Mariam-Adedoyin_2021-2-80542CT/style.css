@@ -1,0 +1,36 @@
+body{
+	margin-top:40px;
+	background-color:#74c0ca;
+}
+.rr{
+	margin-top:-15px;
+}
+.tr{
+	margin-top:-15px;
+}
+.onr{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+        text-align:center;
+}
+table{
+	margin-top:-15px;
+        
+}
+thead{
+	background-color:#00a6bf;
+	text-align:center;
+}
+thead tr th{
+	border-left:1px solid gray;
+	color:white;
+	
+}
+tbody tr td{
+	border-bottom:1px solid gray;
+	border-left:1px solid gray;	
+}
+tbody tr:hover{
+	background-color:#d6e0d6;
+}

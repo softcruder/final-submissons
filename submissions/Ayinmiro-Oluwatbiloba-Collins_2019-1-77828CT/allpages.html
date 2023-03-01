@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class assignmemnt</title>
+</head>
+<style>
+    *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        background-color: blanchedalmond;
+        padding: 0.5rem;
+        border-bottom:2px solid wheat;
+    }
+    nav ul li  :hover{
+        color: purple ;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        font-weight: bolder;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    nav h1{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(0, 0, 0, 0.842);
+        /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        margin-left: auto;
+    }
+    nav ul li{
+       padding:1rem 2rem;
+        font-size: larger;
+    }
+    nav .img{
+       padding:1rem 2rem;
+       display: none;
+    }
+    /* body commments */
+    
+        .container{
+            width: fit-content;
+            margin: auto;
+            margin-top: 4rem;
+        }
+        .container div{
+            margin-bottom: 4rem;
+        }
+        .container div h1 b{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .container div h1{
+            margin-left: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        /* javascript style for menu */
+        .hmaburgermenu {
+            position: absolute;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            transition: 1s;
+            }
+        @media only screen and (max-width:1759px) {
+        nav ul li{
+            display: block;
+        }
+        nav .img{
+            display: block;
+            padding:0rem 1rem;
+            margin-top: 0.37rem;
+            margin-left: auto;
+        }
+        nav{
+            padding: 1rem 0.5rem;
+        }
+        nav ul {
+            position: absolute;
+            transition: 1s;
+            top: 4.3rem;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            margin-left: 0rem;
+            display: block;
+            text-align: center;
+            background-color: beige;
+            left: -100%;
+            padding-top: 0.5rem;
+        }
+        nav ul li{
+       padding:1.1rem;
+        font-size: larger;
+        }
+    }
+    @media only screen and (max-width:879px) {
+        nav ul li{
+       padding:0.5rem;
+        }
+    }
+   
+    @media only screen and (max-width:500px) {  
+        nav{
+            padding: 0.7rem 0.5rem;
+        }
+        nav ul {
+            position: absolute;
+            transition: 1s;
+            top: 3.6rem;
+        }
+    }
+    @media only screen and (max-width:400px) {  
+        nav .img{
+            padding:0rem 0.16rem;
+        }
+        nav h1{
+            font-size: 1.28rem;
+        }
+    }
+    @media only screen and (max-width:388px) {  
+        .container div h1{
+            font-size: 1.4rem;
+        }
+    }
+    @media only screen and (max-width:326px) {  
+        nav .img{
+            padding:0rem 0.16rem;
+        }
+        nav h1{
+            font-size: 1.22rem;
+        }
+        
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <h1>Class Assignment</h1>
+            <ul>
+                <li><a href="/coursereg.html">Course Reg</a></li>
+                <li><a href="/courseregWithBorder.html">Course Reg with border</a></li>
+                <li><a href="/courseregWithoutBorder.html">Course Reg without border</a></li>
+                <li><a href="/cv.html">CV</a></li>
+                <li><a href="/image.html">Image</a></li>
+                <li><a href="/fruit.html">Fruits</a></li>
+                <li><a href="/web.html">Web</a></li>
+                <li><a href="/frameset.html">Frameset</a></li>
+                <li><a href="/form.html">Form</a></li>
+            </ul>
+            <div class="img"><img src="/image/icons8-menu-24 - Copy.png" alt="menu button"></div>
+        </nav>
+    </header>
+   
+            <div class="container">
+                <div>
+                    <h1><b>Name:</b>  AYINMIRO OLUWATOBILOBA COLLINS</h1>
+                   </div>
+                <div>
+                    <h1><b>Matric Number:</b> 2019/1/77828CT</h1>
+                </div>
+                <div>
+                    <h1><b>Department:</b>COMPUTER SCIENCE</h1>
+                </div>
+                <div>
+                    <h1><b>School:</b>SCHOOL OF INFORMATION COMMUICATION TECHNOLOGY</h1>
+                </div>
+            </div>
+            </div>
+</body>
+<script>
+        let ul=document.querySelectorAll('ul')[0]
+        let menu=document.querySelectorAll('.img')[0]
+        let li=document.querySelectorAll('li')
+        // function for the hamburger menu
+        menu.addEventListener('click',function menu(){
+        ul.classList.toggle('hmaburgermenu')
+        })
+        li.forEach(item=>{
+        item.addEventListener('click',none())
+        })
+        function none(params) {
+        ul.classList.remove('hmaburgermenu')
+
+        }
+
+
+
+
+
+
+
+// button.addEventListener('click',handle())
+
+</script>
+</html>

@@ -1,0 +1,14 @@
+<html> 
+<head>
+<title> My Photo </title>
+</head>
+<body>
+<center><h1> Selected picture </h1>
+<p> <img src="BeautyPlus_20210222122907254_save.png" width="50" height="50">
+</p>
+<center>
+<p><a href='homepage 1.html'>HOME</a></p>
+</center>
+</center>
+</body>
+</html>

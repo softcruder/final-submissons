@@ -1,0 +1,173 @@
+/********************************Tag Selector********************************/
+body {
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+
+.list {
+    display: inline;
+    float: center;
+}
+
+img {
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(152, 152, 150);
+    /* display: inline-block; */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #161313;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active li a {
+    background-color: #000505;
+}
+div.semester{
+  text-align: center;
+}
+
+
+/*********************************Class Selector*********************************/
+.nav-con {
+    font-family: "Arial", sans-serif;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+}
+.home-content {
+    font-family: "arial", sans-serif;
+    margin-top: 100px;
+}
+.mitable {
+    text-align: center;
+    margin: 100px 500px;
+}
+.fruit-list {
+    background-color: #eee;
+    list-style-type: lower-alpha;
+    margin: 100px 500px;
+}
+.T-sec {
+    font-family: arial;
+    margin: 100px 500px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form{
+    width: 100%;
+    margin: auto;
+}
+.wrapper{
+    background-color: white;
+    border-radius: 0.2rem;
+    width: 30%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+}
+.inputWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.buttonWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 1rem;
+}
+hr{
+    margin-top: 2rem;
+}
+.buttonWrapper button{
+    border: none;
+    outline: none;
+    padding: 0.45rem 1.2rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #38ef7d;
+    color: white;
+    cursor: pointer;
+}
+.buttonWrapper .cancel{
+    background-color: red;
+}
+.inputWrapper input{
+    margin-top: 1rem;
+    padding:0.6rem 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.1rem;
+    border: 1px solid white;
+    background-color: #f1f1f1;
+
+    outline: none;
+}
+.inputWrapper input:focus{
+        border: 1px solid rgb(168, 166, 166);
+    }
+.inputWrapper .courseLecturer{
+    width: 55%;
+}
+.inputWrapper .courseCode{
+    width: 35%;
+    margin-right: 1rem;
+}
+.body {
+    background: #ffffff;
+    width: 100%;
+}
+
+div.semester {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    /* border-bottom: 3px solid #ddd; */
+    width: 2%;
+    background-color: white;
+}
+
+td {
+    text-align: left;
+    padding: 5px;
+    background-color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+.border {
+    border: none;
+}

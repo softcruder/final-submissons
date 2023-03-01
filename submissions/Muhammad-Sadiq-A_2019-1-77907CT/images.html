@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MUHAMMAD A SADIQ/IMAGES</title>
+  <style>
+    html, body { padding: 0; margin: 0; }
+.image-grid div {
+  width: 25%;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 2rem;
+}
+
+.image-grid, .navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li{
+  padding: 5px;
+  list-style-type:none
+}
+a{
+  text-decoration: none;
+}
+.image01{background-image: url("/PXL_20221115_130334934.MP~2.jpg");}
+.image02 { background-image: url('/PXL_20221115_130356290.MP~2.jpg');
+ }
+.image03 { background-image: url('/PXL_20221115_130430385.MP~2.jpg'); }
+
+
+
+@media screen and (max-width: 400px) {
+  .image-grid {
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    
+  }
+  .image-grid div { width: 100%; }
+}
+  </style>
+</head>
+<body>
+  <div>
+    <ul class="navbar">
+      <li><a href="/allpages.html">HOME</a></li>
+      <li><a href="/index.html">CURRICULUM VITAE</a></li>
+      <li><a href="/fruits.html">FRUITS</a></li>
+      <li><a href="/course-reg-form.html">COURSE REGISTRATION</a></li>
+      <li><a href="/web.html">WEB EXPLAINED</a></li>
+      <li><a href="/images.html">IMAGES</a></li>
+      <li><a href="/quote.html">QUOTE</a></li>
+      <li><a href="/col-frame.html">FRAMES</a></li>
+  </ul>
+</div>
+<!-- partial:index.partial.html -->
+<div class="image-grid">
+  <div class="image01"></div>
+  <div class="image02"></div>
+  <div class="image03"></div>
+  <div class="image04"></div>
+  <div class="image05"></div>
+  <div class="image06"></div>
+  <div class="image07"></div>
+  <div class="image08"></div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+body {
+	background-color: purple;
+color: coral;
+}
+
+table{
+	width: 700px;
+	border: 1px solid coral;
+	padding: 10px;
+	border-collapse: collapse;
+	margin: 10px 120px;
+}
+
+th, td {
+    
+	border: 3px solid; color:  coral;
+	padding: 5px;
+	border-collapse: collapse;
+}
+    
+
+h2, h4, h5{ 
+	font-size: 20px; color: coral);
+	text-align: center;
+	padding: 20px 0px;
+}
+
+button {
+	margin-right: 200px;
+	margin-left: 200px;
+}
+

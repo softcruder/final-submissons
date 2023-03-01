@@ -1,0 +1,8 @@
+<html> 
+<head>
+<title> QUOTE </title>
+</head>
+<body>
+<center><h1> QUOTE OF THE DAY </h1>
+<p> "Don't Forget To Pray" </p>
+</center></body></html>

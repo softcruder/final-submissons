@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zaccheaus Ndace Yisa - 2019/1/77106CT</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: 0;
+		}
+		body{
+			font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			font-size: 18px;
+		}
+		nav{
+			width: 100%;
+			max-width: 800px;
+			margin: 10px auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: sticky;
+			top: 0;
+			height: 40px;
+		}
+		li{
+			text-transform: capitalize;
+			list-style: none;
+		}
+		.nav-item{
+			margin: 4px 10px;
+			font-size: 20px;
+		}
+
+		.nav-link{
+			text-decoration: none;	
+		}
+
+		main{
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		.image-container{
+			z-index: 0;
+			position: relative;
+			inset: 0;
+			height: calc(100vh - 60px);
+			margin-bottom: 30px;
+		}
+		
+		.image-container img {
+			max-width: 200px;
+			z-index: -2;
+		}
+		.image-container img:nth-child(1) {
+			width: 100px;
+			position: absolute;
+			top: 146px;
+			left: 30px;
+			transform: rotateZ(-20deg);
+
+		}
+		.image-container img:nth-child(2) {
+			width: 175px;
+			position: absolute;
+			top: 50%;
+			margin: 0 auto;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+		}
+		.image-container img:nth-child(3) {
+			width: 75px;
+			position: absolute;
+			top: 150px;
+			margin: 0 auto;
+			right: 150px;
+			transform: rotateZ(10deg);
+
+
+		}
+		.image-container img:nth-child(4) {
+			width: 80px;
+			position: absolute;
+			bottom: 20px;
+			margin: 0 auto;
+			right: 10px;
+			transform: rotateZ(20deg);
+		}
+		.image-container img:nth-child(5) {
+			width: 300px;
+			position: absolute;
+			bottom: 0;
+			margin: 0 auto;
+			left: 10px;
+		}
+		.text-container{
+			z-index: 100;
+			position: absolute;
+		}
+		blockquote{
+			margin-top: 15px;
+			font-size: 24px;
+			border-left: 4px solid green;
+			width: 400px;
+			padding: 5px 10px;
+		}	
+
+		blockquote span{
+			display: block;
+			text-transform: capitalize;
+			font-size: 16px;
+			color: rgb(71, 70, 70);
+		}
+		blockquote span::before{
+			content: "~";
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+		<li class="nav-item"><a href="./course.html" class="nav-link">Course registration</a></li>
+		<li class="nav-item"><a href="./web.html" class="nav-link">Web</a></li>
+		<li class="nav-item"><a href="./resume.html" class="nav-link">Resume</a></li>
+		<li class="nav-item"><a href="./frame.html" class="nav-link">Frame</a></li>
+
+	</nav>
+	<main>
+		<div class="image-container">
+			<img src="./images/IMG-20220806-WA0024.jpg" alt="">
+			<img src="./images/IMG-20221205-WA0015.jpg" alt="">
+			<img src="./images/IMG-20221221-WA0009.jpg" alt="">
+			<img src="./images/IMG-20230128-WA0020.jpg" alt="">
+			<img src="./images/PXL_20221123_115928184~2.jpg" alt="">
+		</div>
+		<section class="text-container">
+			<p>I am Zaccheaus Ndace Yisa, a second  year student of Computer Science at the Federal University of Technology Minna(FUTMinna). I am based in Minna Niger state.</p>
+			<p>I enjoy playing basketball and video games, watching movies and reading books.</p>
+
+			<blockquote>The absence of evidence is not the evidence of absence <span>Boondocks</span></blockquote>
+		</section>
+	</main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{
+	font-family: sans-serif;
+}
+
+h1{
+	padding-top: 10px;
+	color: #014A81;;
+}
+
+h4{
+	padding-top: 25px;
+	border-bottom: 4px #014A81 solid;
+}

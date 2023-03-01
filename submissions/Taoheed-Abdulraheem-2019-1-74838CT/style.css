@@ -1,0 +1,87 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+html,
+body {
+    background: #ffffff;
+    width: 100%;
+}
+
+div.semester{
+    text-align: center;
+}
+
+div.task{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.title{
+    text-align: center;
+    
+}
+
+.title ul{
+    list-style-type: none;
+}
+.container{
+    width: 80%;
+    align-items: center;
+}
+div.work{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.roles{
+    line-height: 10%;
+}
+div.check {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* p {
+    text-align: center;
+} */
+
+th {
+    text-align: left;
+    padding: 7px;
+    border-bottom: 3px solid #ddd;
+    width: 2%;
+    background-color: white;
+}
+
+td {
+    text-align: left;
+    padding: 7px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    /* width: 5%; */
+}
+

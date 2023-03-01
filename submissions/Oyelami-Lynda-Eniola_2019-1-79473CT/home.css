@@ -1,0 +1,16 @@
+*{
+	padding-left: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #014A81;
+	display: block;
+	padding: 15px 5px;
+}
+
+a:hover{
+	color: white;
+	background-color: #014A81;
+	transition: 0.9s ease;
+}

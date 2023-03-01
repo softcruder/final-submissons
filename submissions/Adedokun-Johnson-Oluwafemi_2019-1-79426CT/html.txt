@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conceptual meaning of web</title>
+	<link rel="stylesheet" type="text/css" href="concep.css">
+</head>
+<body>
+
+
+	<h2>Conceptual definition of Web</h2>
+	<p>Conceptually, web is:</p>
+		
+		<ol>
+			<li>Hyper-text Information System</li>
+			<li>Cross Platform</li>
+			<li>Interactive</li>
+			<li>Dynamic</li>
+			<li>Distributed</li>
+		</ol>
+
+		<p><b><j>1. Hyper-text Information System</b>: Hypertext means instead 
+		of reading a text, in a rigid linear structure (e.g. in a book)
+		one can skip from one point to another.</p></j>
+
+		<p><b><j>2. Cross platform</b>: Ability to access information equally well from
+		any computer hardware running any operating system using any display.</p>
+
+		<p><b>3. Interactive</b>: The capability to talk back to web server unlike 
+		traditional TV i.e. ability to select a link, jump to another web page
+		to connect and communicate with the publisher of the page.</p></j>
+
+		<p><b><j>4. Dynamic</b>: Implies that the content can change any time even 
+		when the page is being viewed if not saved.</p></j>
+
+		<p><b><j>5. Distributed</b>: Implies that information provided is shared globally
+		across millions of websites each of which contributes the space 
+		for the information it publishes.</p></j>
+</body>
+</html>

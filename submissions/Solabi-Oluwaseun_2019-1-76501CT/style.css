@@ -1,0 +1,146 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(27, 27, 27, 0.7), rgba(22, 22, 22, 0.7)),
+    url(img/BBB.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 150px;
+}
+
+/*  */
+.text-box {
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 65px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size:20px;
+  color: white;
+}
+
+
+/* course */
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
+}
+p {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  text-align: left;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col {
+  flex-basis: 31%;
+  background-image: linear-gradient(rgba(27, 27, 27, 0.7), rgba(22, 22, 22, 0.7)),
+    url(img/BBB.jpg);
+    border-radius: 5px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5src;
+}
+.course-col a{
+  color: rgb(255, 0, 0);
+  font-style: normal;
+
+}
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #fff;
+}
+h4{
+  text-align: left;
+}
+
+.course-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* campus */
+.campus {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.campus-col {
+  flex-basis: 32%;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.campus-col img {
+  width: 100%;
+  display: block;
+}
+
+.cta {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(27, 27, 27, 0.7), rgba(22, 22, 22, 0.7)),
+    url(img/BBB.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h5 {
+  color: white;
+  margin-bottom: 40px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.cta h6{
+  color: #fff;
+  font-size: 14px;
+  font-weight: lighter;
+}

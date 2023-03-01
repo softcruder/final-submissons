@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html>
+   <head>    
+   <title>My CV</title>    
+</head>
+ <body>  <center> 
+ <h2> CURRICULUM VITAE</h2></center>
+<b>Address:</b>
+<table>
+<tr><td>Beside Baptist Church, Kainji,<br/>
+New Bussa, Niger State.</table>
+<hr/>
+<center> 
+<b>NAME:		        MORUF JEMILU<br/>
+Mobile N0:		08140225814.</b></center>
+
+<h3> PERSONAL DATA:</h3>
+<table><p>
+<tr><td>Date of Birth:  </td><td> 17TH August 1999 </td></tr>
+<tr><td>Sex:			</td><td>          	Male  </td></tr>
+<tr><td>Place of Birth:	</td><td>	Kainji, New Bussa </td></tr>
+<tr><td>Tribe:			</td><td>	          Yoruba  </td></tr>
+<tr><td>Nationality:		</td><td>	Nigerian   </td></tr>
+<tr><td>State of Origin:	</td><td>	Oyo State  </td></tr>
+<tr><td>L.G.A.:	           </td><td>      Irepo LGA  </td></tr>
+<tr><td>Home Town:		</td><td>	Kishi     </td></tr>
+<tr><td>Religion:		 </td><td>      	Islam   </td></tr></p></table> 
+		<hr/>
+ <b>OBJECTIVE </b> <br/>
+<div> <p align='justify'> PROFILE:	To raise the standard of the organization through good interpersonal skill 
+and the ability to work effectively thereby achieving the fundamental objective <br/>
+of the organization.</p></div>
+<hr/>
+<b> EDUCATION:</b> <br/>
+<table>
+<tr><td> Federal College of  Wildlife Management, New Bussa <br/>
+National Diploma  Certificate	2017/2019</td></tr></table>
+ <br/>
+<table><tr><td>Niffr Staff Secondary School, New Bussa <br/>
+Senior Secondary School Certificate	2017/2011</td></tr></table>
+ <br/>
+<table><tr><td>99 AirCombat Training Group, New Bussa	 <br/>
+First School Leaving Certificate	2004/2010</td></tr></table>
+ <hr/>
+<b> HOBBIES:		</b>	<br/>	Reading and Playing Games <br/>
+<center>
+<p><a href='homepage 1.html'>HOME</a></p>
+</center>
+</body> 
+</html>

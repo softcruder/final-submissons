@@ -1,0 +1,23 @@
+/* selected tag {
+    property: value
+ } */
+ body{
+    width: 100%;
+    padding-top: 5%;
+font-family: Arial;
+font-size: medium;
+
+ }
+ a{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+ul {
+    list-style: none;
+}
+footer{
+    opacity: 20%;
+    font: size 30px;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Advice Generator</title>
+    <style>
+      :root {
+        /* === Colours === */
+
+        /* === Primary Colours === */
+        --light-cyan: hsl(193, 38%, 86%);
+        --neon-orange: hsl(37, 100%, 66%);
+
+        /* === Neutral Colours === */
+        --grayish-blue: hsl(217, 19%, 80%);
+        --dark-grayish-blue: hsl(217, 19%, 24%);
+        --dark-blue: hsl(218, 23%, 16%);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        color: var(--grayish-blue);
+      }
+
+      main {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 1rem;
+        background-color: var(--dark-blue);
+      }
+
+      main article {
+        max-width: 450px;
+        background-color: var(--dark-grayish-blue);
+        padding: 1.2rem;
+        border-radius: 10px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.1) 0px 8px 24px,
+          rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main article > h1,
+      main article h1 > span {
+        font-size: 1rem;
+        letter-spacing: 3px;
+        color: var(--neon-orange);
+        text-transform: uppercase;
+      }
+
+      main article section {
+        margin: 0.7rem 0;
+      }
+
+      main span {
+        font-size: 0.75rem;
+      }
+
+      main article > img {
+        width: 100%;
+        height: auto;
+        margin: 0.2rem 0 0.7rem 0;
+      }
+
+      main .dice-icon-container {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: var(--neon-orange);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -25px;
+        transition: all 0.2s ease;
+        cursor: pointer;
+      }
+
+      main .dice-icon-container:active {
+        box-shadow: 0 0 20px var(--neon-orange);
+        height: 55px;
+        width: 55px;
+      }
+
+      main .dice-icon-container img {
+        height: 20px;
+        width: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <article>
+        <h1>Quote</h1>
+
+        <section>
+          <p>"<span id="quote-display">Click the dice to see quotes."</span></p>
+        </section>
+
+        <img
+          src="images/pattern-divider-desktop.svg"
+          alt="Pattern Divider Icon"
+        />
+      </article>
+
+      <div id="button" class="dice-icon-container" onclick="getQuote()">
+        <img src="images/icon-dice.svg" alt="Dice Icon" />
+      </div>
+      <a href="allpages.html" id="button">Home</a>
+    </main>
+    <script>
+      const quoteDisplay = document.getElementById("quote-display");
+      const button = document.getElementById("button");
+
+      function getQuote() {
+        const quotes = [
+          {
+            quote:
+              "Courage is not the absence of fear it's to have the guts to face and conquer them.",
+            author: "Nelson Mandela, Tabitha Kavyu",
+          },
+          {
+            quote:
+              "The worst perspective you can have is to think that opportunities are limited to the rich and lucky.",
+            author: "Unknown",
+          },
+          {
+            quote: "The difference between you and what you want is skill.",
+            author: "Yusuf Adewale",
+          },
+          {
+            quote:
+              "Nothing splendid has ever been achieved except by those who dared believe tha something inside them was superior to circumstance.",
+            author: "Bruce Barton",
+          },
+          {
+            quote:
+              "If you don't have the results you want it's because you are not skilled enough.",
+            author: "Tabitha Kavyu",
+          },
+          {
+            quote:
+              "The truth is that everybody is afraid of something. The difference is that some people let their fears stop them while others get out there and 'do it afraid'.",
+            author: "Tabitha Kavyu",
+          },
+          {
+            quote:
+              "Many programmers do programming not because they expect to get paid or get adulation by the users, but because it is fun to program",
+            author: "Linus Torvalds",
+          },
+          {
+            quote:
+              "It's going to be tough, but guess what? That is what makes you...",
+            author: "Yusuf Adewale",
+          },
+        ];
+
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        const randomQuote = quotes[randomIndex].quote;
+        const randomAuthor = quotes[randomIndex].author;
+
+        quoteDisplay.innerHTML = randomQuote + `"<br> - ${randomAuthor}`;
+      }
+    </script>
+  </body>
+</html>

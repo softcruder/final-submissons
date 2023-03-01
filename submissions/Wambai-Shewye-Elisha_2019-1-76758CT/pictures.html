@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css" media="screen">
+      body {
+        text-align: center;
+        background-color: antiquewhite;
+      }
+
+      div {
+        display: inline-block;
+        margin: 10%; 
+        padding: 30px 30px 30px 30px; 
+        box-shadow: 10px 10px 5px rgb(247, 182, 182);
+      }
+
+      img { 	 	 	  	  	  	  	  	  	  	  	  	  
+        width: 100%; 
+
+
+
+      }
+
+    </style>
+
+    <script type="text/javascript">
+
+      window.onload = function() {     // This runs when the page has finished loading
+
+        var allImages = document.getElementsByTagName('img'); // get all the images in the page (HTMLCollection)
+
+        for (var i=0; i<allImages.length; ++i) {               // loop through them using a for loop...
+
+          let currentImage = allImages[i];                     // store a reference to the current image element in a variable, so we can use it later...
+
+          currentImage.addEventListener('mouseover', function() { // now we add an event listener to this image - when the mouse enters over it...        	         
+
+            for (var j=0, length=allImages.length; j<length; ++j) { // loop through all images again, including the one we just moused over...        
+
+              if (i === j) {                                     // if we find that image again, set its opacity (a CSS property):           	            
+                currentImage.style.opacity = '0';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+               } else {                                        // otherwise set its opacity to 1.0 (fully visible again):                                       allImages[j].style.opacity = '1';
+             }}
+           });
+        }}
+      </script>
+  </head>
+  <body>
+    <h1>My Best Pictures</h1>
+    <a href="C/Users/Caleb.eth/Documents/2019-1-76644CT/Quotes/quote.html"><h4>Check out my Favourite Quotes</h4></a>
+    <a href="C:/Users/Caleb.eth/Documents/2019-1-76644CT/frames/forms.html"><h3   text-shadow: 2px 2px 4px grey; >Check out my Forms</h3></a>
+     <!-- add your images here -->
+     <a href="C:/Users/Caleb.eth/Documents/2019-1-76644CT/frames/frame assignment.html"><h4>Click here to go to forms page</h4></a>
+     <a href="C:/Users/Caleb.eth/Documents/2019-1-76644CT/home1.html">CHECK OUT MY HOME PAGE</a>
+     <div><img src="C:/Users/Caleb.eth/Documents/2019-1-76644CT/IMG-20230211-WA0078.jpg   "/>
+    </div>
+    
+      <div><img src="C:/Users/Caleb.eth/Documents/2019-1-76644CT/eagle.jpg" alt="image 2"/>
+    </div>
+
+      <div><img src="C:/Users/Caleb.eth/Documents/2019-1-76644CT/IMAGE.jpg" alt="image 3"/>
+    
+    </div>   
+    <div><img src="C:/Users/Caleb.eth/Documents/2019-1-76644CT/IMG-20230211-WA0073.jpg" alt="image 4"/>
+    
+    </div>     
+    <div><img src="C:/Users/Caleb.eth/Documents/2019-1-76644CT/IMG-20230211-WA0076.jpg" alt="image 5"/>
+    
+    </div>   
+    <div><img src=" C:/Users/Caleb.eth/Documents/2019-1-76644CT/data structure and algorithm 7.jpg" alt="image 1" alt="image 6"/>
+    
+    </div>
+    <div><img src="C:/Users/Caleb.eth/Documents/2019-1-76644CT/IMG-20230211-WA0079.jpg" alt="image 7"/>
+    
+    </div> 
+     <!-- etc.. -->                
+
+</body>
+
+    
+    
+</html

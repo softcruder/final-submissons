@@ -1,0 +1,47 @@
+<html>
+<head> 
+<title>Concepture Definition of Web</title>
+</head>
+<body>
+<p>
+<h2>Concepture Definition of Web </h2>
+<ol><div> <p align='justify'>
+<li><b> HYPERTEXT INFORMATION SYSTEM:</b><br/> Hypertext systems allow for non-sequential, or non-linear, reading. This is the underlying idea of
+ a hypertext system. The result is a multidimensional document that can be read by following different
+ paths through it. In this section we will look into the application of hypertext in computer systems, 
+ mainly the World Wide Web hypertext system.The main use of hypertext is in information retrieval applications.
+ The ease of linking different pieces (fragments) of information is the important aspect of hypertext information
+ retrieval.The information can be of various media: it may be fragments of textual documents, structured data from
+ databases, or list of terms and their definitions. Any of these, or a mixture thereof, can make up the contents
+ of a hypertext document.</li> </p></div>
+ <div> <p align='justify'>
+ <li><b>CROSS PLATFORM:</b><br/> Cross platform (also called multi-platform software, platform-agnostic software, or platform-independent software)
+ is computer software that is designed to work in several computing platforms. Some cross-platform software requires a 
+ separate build for each platform, but some can be directly run on any platform without special preparation, being written
+ in an interpreted language or compiled to portable bytecode for which the interpreters or run-time packages are common or
+ standard components of all supported platforms. For example, a cross-platform application may run on Microsoft Windows, Linux,
+ and macOS. Cross-platform software may run on many platforms, or as few as two.</li></p></div>
+ <div> <p align='justify'>
+ <li><b>INTERACTIVE:</b><br/> Interactive website is a website that communicates and allows for interaction with users. And
+ by interaction, we dont just mean allowing users to <b>click</b> and <b>scroll</b>. Offering users with content that is amusing,
+ collaborative, and engaging is the essential objective of an interactive website. An interactive websites design will not
+ just display attractive content, it will exhibit interactive content. Content that will compel users to communicate and
+ deeply engage with the website.</li></p></div>
+ <div> <p align='justify'>
+ <li><b>DYNAMIC</b><br/> Dynamic is a website containing data that can be mutable or changeable. It uses client-side or server
+ scripting to generate mutable content. Like a static website, it also contains HTML data.Dynamic websites are those websites that
+ changes the content or layout with every request to the webserver. These websites have the capability of producing different content
+ for different visitors from the same source code file. There are two kinds of dynamic web pages i.e. client side scripting and server
+ side scripting. The client-side web pages changes according to your activity on the web page. On the server-side, web pages are changed
+ whenever a web page is loaded.</li></p></div>
+ <div> <p align='justify'>
+ <li><b>DISTRIBUTED</b><br/> Distributed applications (distributed apps) are applications or software that run on multiple computers within
+ a network at the same time and can be stored on servers or cloud computing platforms. Unlike traditional applications that run on a single 
+ system, distributed applications run on multiple systems simultaneously.</li></p></div>
+ </ol>
+</p>
+<center>
+<p><a href='homepage 1.html'>HOME</a></p>
+</center>
+</body>
+</html>
