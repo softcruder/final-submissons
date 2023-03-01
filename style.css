@@ -45,9 +45,9 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --biggest-font-size: 3.5rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.75rem;
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
     --small-font-size: .875rem;
@@ -528,6 +528,10 @@ footer {
     -ms-transition: 0.5s ease;
     -o-transition: 0.5s ease;
   }
+
+  .grid {
+    gap: 0.25rem;
+  }
   .accordion__header {
     padding: 8px;
     border-radius: 0.33rem;
@@ -542,6 +546,10 @@ footer {
     font-weight: 600;
   }
 
+  .page__button, .page__item {
+    font-size: 0.5rem;
+  }
+
   .footer__img {
     max-width: 190px;
   }
@@ -552,7 +560,7 @@ footer {
 
   .footer__subtitle, .footer__link {
     font-variant: small-caps;
-    font-size: 0.33;
+    font-size: 0.33rem;
   }
 
   .footer__links, .footer__copy, .footer__copy a {
