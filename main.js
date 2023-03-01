@@ -145,6 +145,7 @@ accordionBody.classList.add("accordion__body");
 const link = document.createElement("a");
 link.textContent = "View my submission";
 link.href = `submissions/${student.fullName.replace(/\ /g, '-')+'_'+student.matricNumber.replace(/\//g, '-')}/allpages.html`;
+link.setAttribute("target", "_blank");
 accordionBody.appendChild(link);
 accordion.appendChild(accordionHeader);
 accordion.appendChild(accordionBody);
