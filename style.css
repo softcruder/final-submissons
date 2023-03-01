@@ -429,8 +429,9 @@ footer {
   color: var(--first-color-lighter) !important;
 }
 .footer__subtitle {
-  font-size: var(--h6-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--font-bold-1);
+  font-variant: small-caps;
   color: var(--body-color) !important;
 }
 
