@@ -551,6 +551,10 @@ footer {
     font-weight: 600;
   }
 
+  .pagination__container ul li {
+    margin: 0 0.1rem;
+  }
+
   .page__button, .page__item {
     font-size: 0.5rem;
     padding: 0.15rem 0.3rem;
