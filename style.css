@@ -516,7 +516,7 @@ footer {
   }
 
   .nav__text {
-    font-size: var(--h1-font-size);
+    font-size: var(--h3-font-size);
   }
 
   .nav__logo--img {
@@ -528,12 +528,22 @@ footer {
     -o-transition: 0.5s ease;
   }
 
+  .section__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-bold);
+  }
+
   .grid {
     gap: 0.25rem;
   }
 
   .home {
-    min-height: calc(100vh - 483.6px);
+    min-height: calc(100vh - 443.6px);
+  }
+
+  .home a {
+    padding: .25rem .5rem;
+    font-size: var(--small-font-size);
   }
 
   .accordion__header {
