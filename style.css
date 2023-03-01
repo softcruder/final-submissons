@@ -533,6 +533,13 @@ footer {
     font-weight: var(--font-bold);
   }
 
+  .section__title::before {
+    top: 2px;
+    left: 0;
+    width: 3px;
+    height: 10px;
+  }
+
   .grid {
     gap: 0.25rem;
   }
@@ -542,7 +549,7 @@ footer {
   }
 
   .home a {
-    padding: .25rem .5rem;
+    padding: .35rem .5rem;
     font-size: var(--small-font-size);
   }
 
@@ -556,8 +563,8 @@ footer {
   }
 
   .accord-h {
-    font-size: 0.25rem;
-    font-weight: 600;
+    font-size: var(--smallest-font-size);
+    font-weight: normal;
   }
 
   .pagination__container {
