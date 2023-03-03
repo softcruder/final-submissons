@@ -4,30 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>My Gallery</title>
     <style>
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+        h1 {
+            color: rgb(243, 147, 4);
         }
+        h1::before {
+            content: '';
+            /* position: relative; */
+            top: 7px;
+            left: 0;
+            width: 3px;
+            height: 25px;
+            background-color: rgb(243, 147, 4) !important;
+            }
         .gallery img {
-            margin: 10px;
+            border: 2px solid rgb(243, 147, 4);
+            border-radius: .5rem;
+            box-shadow: rgba(114, 114, 114, 0.74);
+        }
+        .gallery img:hover {
+            box-shadow: rgba(114, 114, 114, 0.74);
+        }
+        .gallery {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
         }
         img.trim {
-            max-width: 200px;
-            max-height: 200px;
-            overflow: hidden;
+            max-height: 300px;
+            overflow: clip;
         }
     </style>
 </head>
 <body>
-    <h1>My Gallery</h1>
-    <div class="gallery">
-        <img src="images/image1.jpg" alt="">
-        <img src="images/image2.jpg" alt="">
-        <img src="images/image3.jpg" alt="">
-        <img src="images/image4.jpg" alt="">
+    <section class="section container">
+        <h1 class="section__title">My Gallery</h1>
+    <div class="gallery__container">
+        <div class="gallery row">
+            <img src="images/image1.jpg" alt="" class="trim 1">
+            <img src="images/image2.jpg" alt="" class="trim">
+            <img src="images/image3.jpg" alt="" class="trim">
+            <img src="images/image4.jpg" alt="" class="trim">
+        </div>
     </div>
+
+    </section>
 </body>
 </html>
