@@ -6,6 +6,7 @@ function toggleMenuFn() {
   navMenu.classList.toggle('active');
 }
 
+//Main functionalities
 
 const studentFolders = [
   "Nasirullah-Oladipo-A_2019-1-76184CT",

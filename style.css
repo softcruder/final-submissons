@@ -56,6 +56,21 @@
   }
 }
 
+@media screen and (max-width: 1340px) {
+  :root {
+    --biggest-font-size: 3rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.75rem;
+    --h4-font-size: 1.5rem;
+    --h5-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .85rem;
+    --smaller-font-size: .713rem;
+    --smallest-font-size: .5rem;
+  }
+}
+
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -239,9 +254,9 @@ h2.home__title {
   font-size: var(--h2-font-size);
 }
 
-.home h1 {
+.home h2 {
   font-weight: var(--font-bolder);
-  font-size: clamp(65px, 100vw, 97px);
+  font-size: clamp(15px, 100vw, 37px);
   line-height: 1;
 }
 
@@ -662,3 +677,10 @@ footer {
     font-size: var(--smaller-font-size);
   }
 }
+
+@media screen and (max-width: 1340px) {
+  .home {
+    min-height: calc(100vh - 383.6px);
+  }
+}
+
