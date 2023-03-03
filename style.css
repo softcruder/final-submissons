@@ -680,7 +680,7 @@ footer {
 
 @media screen and (max-width: 1340px) {
   .home {
-    min-height: calc(100vh - 383.6px);
+    min-height: calc(70vh - 383.6px);
   }
 }
 
