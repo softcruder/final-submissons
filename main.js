@@ -6,7 +6,6 @@ function toggleMenuFn() {
   navMenu.classList.toggle('active');
 }
 
-//Main functionalities
 
 const studentFolders = [
   "Nasirullah-Oladipo-A_2019-1-76184CT",
@@ -175,33 +174,11 @@ for (let i = 1; i <= totalPages; i++) {
   pageNumbers.push(i);
 }
 
-// Display initial page
-window.onload = function() {
-  showPage(currentPage);
-}
 // track prev and next buttons
 const prev = document.getElementById("prev");
 const next = document.getElementById("next");
 
-let currentPage = 1;
-
-prev.addEventListener("click", () => {
-  if (currentPage > 1) {
-    currentPage--;
-    showPage(currentPage);
-  }
-});
-
-next.addEventListener("click", () => {
-  if (currentPage < totalPages) {
-    currentPage++;
-    showPage(currentPage);
-  }
-});
-
 // Create pagination buttons
-
-     ////Get the pages ul
 const paginationList = document.getElementById("pages");
 
 for (let i = 0; i < totalPages; i++) {
@@ -215,6 +192,32 @@ for (let i = 0; i < totalPages; i++) {
   });
   paginationList.appendChild(pageButton);
 }
+
+let activePage = document.querySelector(".page__item");
+activePage.classList.add("active");
+
+prev.addEventListener("click", () => {
+  const activePage = document.querySelector(".page__item.active");
+  const prevPage = activePage.previousElementSibling;
+  if (prevPage) {
+    showPage(parseInt(prevPage.innerText));
+    //Select the new active page
+    const newActivePage = document.querySelector(".page__item.active");
+    if (newActivePage) {
+      newActivePage.classList.remove("active");
+    }
+    prevPage.classList.add("active");
+  }
+});
+
+
+next.addEventListener("click", () => {
+  const activePage = document.querySelector(".page__item.active");
+  const nextPage = activePage.nextElementSibling;
+  if (nextPage) {
+    showPage(parseInt(nextPage.innerText));
+  }
+});
 
 function showPage(pageNumber) {
   // Calculate starting and ending indices of items to display
@@ -231,7 +234,7 @@ function showPage(pageNumber) {
   }
 
   // Get the active page and its index
-  const activePage = document.querySelector(".page__item.active");
+  // const activePage = document.querySelector(".page__item.active");
   const pageButtons = document.querySelectorAll(".page__item");
   const activePageIndex = Array.from(pageButtons).indexOf(activePage);
 
@@ -242,14 +245,18 @@ function showPage(pageNumber) {
   } else {
     prevButton.disabled = true;
   }
+  
 
   // Enable or disable the Next button
   const nextButton = document.getElementById("next");
-  if (activePage && activePage.nextElementSibling) {
-    nextButton.disabled = false;
-  } else {
+if (activePage && activePage.nextElementSibling) {
+  nextButton.disabled = false;
+} else {
+  nextButton.disabled = true;
+  if (activePage === paginationList.lastElementChild) {
     nextButton.disabled = true;
   }
+}
 
   // Update the active page button
   pageButtons.forEach((button, index) => {
@@ -270,7 +277,7 @@ function showPage(pageNumber) {
 
 window.onload = function() {
   //const accordionContainer = document.querySelector('.accordion__container'); 
-  showPage(currentPage);
+  showPage(parseInt(activePage.innerText));
   
   accordions.forEach(accordion => {
     const header = accordion.querySelector('.accordion__header');

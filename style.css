@@ -254,7 +254,7 @@ h2.home__title {
   font-size: var(--h2-font-size);
 }
 
-.home h2 {
+.home h1 {
   font-weight: var(--font-bolder);
   font-size: clamp(15px, 100vw, 37px);
   line-height: 1;
@@ -582,6 +582,10 @@ footer {
     -o-transition: 0.5s ease;
   }
 
+  h3{
+    font-size: var(--h3-font-size);
+  }
+
   .section {
     padding-top: 2.5rem !important;
     padding: .5rem 0 2rem;
@@ -608,6 +612,11 @@ footer {
     min-height: calc(100vh - 403.6px);
   }
 
+  .home__title {
+    font-size: var(--h2-font-size) !important;
+    
+  }
+
   .home a {
     padding: .4rem .6rem;
     font-size: var(--normal-font-size);
@@ -615,12 +624,18 @@ footer {
 
   .home__data-number{
     font-size: var(--h2-font-size);
+    font-weight: var(--font-bold) !important;
   }
 
   .home__data-title {
-    font-size: var(--h3-font-size);
+    font-size: var(--h3-font-size) !important;
     color: var(--text-color);
-}
+  }
+
+  .home__data-description {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-normal);
+  }
 
   .accordion__header {
     padding: 8px;
@@ -634,6 +649,10 @@ footer {
 
   .accordion__body.active {
     padding: 0.5rem 0rem 0.75rem;
+  }
+
+  .accordion__body a {
+    font-size: var(--small-font-size) !important;
   }
 
   .pagination__container {
@@ -680,7 +699,7 @@ footer {
 
 @media screen and (max-width: 1290px) {
   .home {
-    min-height: calc(100vh - 483.6px);
+    min-height: calc(80vh - 483.6px);
   }
 }
 
