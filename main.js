@@ -77,7 +77,7 @@ const studentFolders = [
   "Abdulrahman-Daromosu-Adekunle_2019-1-76828CT",
   "Victor-Isaac-Solomon_2019-1-77321CT",
   "Muhammad-Sadiq-A_2019-1-77907CT",
-  "Bello-Mohammed-Toyib_2019-1-175334CT"
+  "Bello-Mohammed-Toyib_2019-1-75334CT"
 ];
 
 const students = [];
