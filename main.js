@@ -48,7 +48,7 @@ const studentFolders = [
   "Wahab-Ibrahim_2021-2-80849CT",
   "Hassan-Aliyu-Babangida_2019-1-75604CT",
   "Mnaan-Josephine-Wueseter_2019-1-76933CT",
-  "Egena-Stephenie-Odunayo_2019-1-75456CT",
+  "Egena-Stephanie-Odunayo_2019-1-75456CT",
   "Agada-Anthony-Alex_2019-1-75020CT",
   "Aidi-Joheobe-Pius_2019-1-75073CT",
   "Wilson-Joshua-Otonye_2019-1-76016CT",
