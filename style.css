@@ -566,6 +566,7 @@ footer {
   .nav__menu.active ul li a{
     color: var(--container-color) !important;
     font-size: var(--small-font-size);
+    padding: 2px !important;
   }
 
   .nav__text {
