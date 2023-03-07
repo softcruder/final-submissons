@@ -629,7 +629,7 @@ footer {
   }
 
   .home__data-title {
-    font-size: var(--h3-font-size) !important;
+    font-size: var(--normal-font-size) !important;
     color: var(--text-color);
   }
 
